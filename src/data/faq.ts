@@ -5,7 +5,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-home-what-is-skibidi-wars",
     question: "What is Skibidi Wars?",
     answer:
-      "Skibidi Wars is the first official Skibidi Wars game, a launch-day 2026 Steam title by DaFuq!?Boom! that adapts the YouTube Skibidi Toilet web series into a faction-versus-faction PC game. It ships with the Allies, Toilets, Cameras, TVs, Speakers, and Titans factions on Steam.",
+      "Skibidi Wars is a 2026 Steam Early Access title developed and published by Pakumi. The game adapts the YouTube Skibidi Toilet web series by DaFuq!?Boom! into a two-faction PC shooter: Cameraman versus Skibidi Toilets.",
     pageIds: ["home"],
     category: "release",
     schemaEligible: true,
@@ -15,7 +15,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-home-when-did-skibidi-wars-launch",
     question: "When did Skibidi Wars launch on Steam?",
     answer:
-      "Skibidi Wars launched on September 17, 2026 on Steam, with no Early Access period as of the September 17, 2026 research date. The Steam store page is the authoritative source for the live launch date and any post-launch timing shift.",
+      "Skibidi Wars entered Steam Early Access on September 17, 2026 with a planned roughly six-month window before full release. The Steam store page is the authoritative source for the live launch date and any post-launch timing shift.",
     pageIds: ["home"],
     category: "release",
     schemaEligible: true,
@@ -25,7 +25,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-home-who-developed-skibidi-wars",
     question: "Who developed Skibidi Wars?",
     answer:
-      "Skibidi Wars is developed and published by DaFuq!?Boom!, the same creator behind the YouTube Skibidi Toilet web series. The DaFuq!?Boom! developer profile on Steam lists Skibidi Wars as the studio's launch-day Steam title.",
+      "Skibidi Wars is developed and published by Pakumi. DaFuq!?Boom! created the original Skibidi Toilet YouTube web series the game adapts, but is not the studio behind this Steam title. The Pakumi developer profile on Steam lists Skibidi Wars as its launch-day Steam title.",
     pageIds: ["home"],
     category: "release",
     schemaEligible: true,
@@ -33,9 +33,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-home-launch-factions",
-    question: "Which factions are confirmed for the Skibidi Wars launch roster?",
+    question: "Which factions are in Skibidi Wars?",
     answer:
-      "Allies, Toilets, Cameras, TVs, Speakers, and Titans are the six factions confirmed on the Steam store description. Named characters such as Toilet Emperor, Titan Speakerman, Titan TV Man, and Titan Cameraman are referenced through the Steam store copy and the autocomplete clusters captured for the en-US locale.",
+      "The Steam store description names two factions: Cameraman and Skibidi Toilets. Toilet Emperor is the Skibidi Toilets' headline boss. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology rather than current-game faction names.",
     pageIds: ["home"],
     category: "release",
     schemaEligible: true,
@@ -45,7 +45,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-release-date-when-did-skibidi-wars-launch",
     question: "When did Skibidi Wars launch on Steam?",
     answer:
-      "Skibidi Wars launched on Steam on September 17, 2026. The Skibidi Wars release date is the live Steam store release date for AppID 4315830 and is mirrored by SteamDB.",
+      "Skibidi Wars entered Steam Early Access on September 17, 2026. The Early Access launch date is the live Steam store release date for AppID 4315830 and is mirrored by SteamDB, which records the Early Access release flag.",
     pageIds: ["fixed-release-date-status-en-US"],
     category: "release",
     schemaEligible: true,
@@ -55,7 +55,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-release-date-is-skibidi-wars-early-access",
     question: "Is Skibidi Wars a Steam Early Access title?",
     answer:
-      "No. Skibidi Wars is not in Early Access as of the September 17, 2026 research date. The Steam store page presents the title as a full launch-day release, and SteamDB does not flag an Early Access banner on AppID 4315830.",
+      "Yes. Skibidi Wars is an active Steam Early Access title at launch, with a planned roughly six-month window before the full release. The Steam store page flags AppID 4315830 with the Early Access banner, and SteamDB records the Early Access release flag.",
     pageIds: ["fixed-release-date-status-en-US"],
     category: "release",
     schemaEligible: true,
@@ -122,6 +122,16 @@ export const faqItems: FAQItem[] = [
     sourceStatus: "official",
   },
   {
+    id: "faq-price-stability",
+    question: "Will the Skibidi Wars price change during Early Access?",
+    answer:
+      "No. Pakumi has publicly promised that the Skibidi Wars Early Access launch price will hold steady through the Early Access window. The Steam store sidebar for AppID 4315830 is the live source to confirm the current price is unchanged.",
+    pageIds: ["fixed-price-editions-en-US"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
     id: "faq-price-editions",
     question: "Are there any Skibidi Wars editions?",
     answer:
@@ -143,9 +153,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-price-after-launch",
-    question: "Will the Skibidi Wars price change after launch?",
+    question: "Will the Skibidi Wars price change after the full release?",
     answer:
-      "Skibidi Wars price changes after launch are not announced as of the September 17, 2026 research date. The Steam store page is the authoritative source for any post-launch price shift, regional price change, or Steam Sale event.",
+      "Pakumi has promised the Early Access launch price will hold through the Early Access window. Any price change after the full 1.0 release is not announced as of the September 17, 2026 research date; the Steam store page is the authoritative source for any post-EA price shift or Steam Sale event.",
     pageIds: ["fixed-price-editions-en-US"],
     category: "release",
     schemaEligible: true,
@@ -155,7 +165,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-characters-factions-launch",
     question: "What factions are in Skibidi Wars at launch?",
     answer:
-      "The Steam store description lists six factions: Allies, Toilets, Cameras, TVs, Speakers, and Titans. Every named Skibidi Wars character belongs to one of those faction buckets.",
+      "The Steam store description names two factions: Cameraman and Skibidi Toilets. Camera, TV, Speaker, and Titan labels appear in the YouTube Skibidi Toilet IP and are treated here as legacy terminology rather than current-game faction names.",
     pageIds: ["wiki"],
     category: "wiki",
     schemaEligible: true,
@@ -165,7 +175,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-characters-primary-antagonist",
     question: "Who is the primary antagonist in Skibidi Wars?",
     answer:
-      "Toilet Emperor is the Toilet faction's primary antagonist per the Steam store description and heads the boss roster on launch day.",
+      "Toilet Emperor is the Skibidi Toilets' primary antagonist per the Steam store description and heads the boss roster on launch day.",
     pageIds: ["wiki"],
     category: "wiki",
     schemaEligible: true,
@@ -175,7 +185,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-characters-stats-announced",
     question: "Are specific character stats announced for Skibidi Wars?",
     answer:
-      "No. Specific character stats, ability damage numbers, and unlock conditions are not announced as of 2026-09-17. The launch-day roster confirms faction labels and autocomplete-confirmed character names only.",
+      "No. Specific character stats, ability damage numbers, and unlock conditions are not announced as of 2026-09-17. The launch-day roster confirms the two faction labels and autocomplete-confirmed character names only.",
     pageIds: ["wiki"],
     category: "wiki",
     schemaEligible: true,
@@ -185,7 +195,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-characters-where-from",
     question: "Where do the Skibidi Wars characters come from?",
     answer:
-      "The character names and faction terminology come from the YouTube Skibidi Toilet web series by DaFuq!?Boom!. Skibidi Wars on Steam is the first official Skibidi Wars game adaptation of that series.",
+      "Pakumi develops and publishes Skibidi Wars on Steam. The character names and IP-legacy sub-faction terminology come from the YouTube Skibidi Toilet web series by DaFuq!?Boom!, which is the source IP the game adapts.",
     pageIds: ["wiki"],
     category: "wiki",
     schemaEligible: true,
@@ -265,7 +275,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-bosses-faction",
     question: "Do Skibidi Wars boss fights differ across factions?",
     answer:
-      "The Steam store describes faction-versus-faction combat in which named bosses gate episode progression. The exact boss roster per faction, the order of encounters, and faction-specific counters are not announced as of the research date.",
+      "The Steam store describes a two-faction combat loop (Cameraman vs Skibidi Toilets) in which named bosses gate episode progression. The exact boss roster per side, the order of encounters, and faction-specific counters are not announced as of the research date.",
     pageIds: ["fixed-bosses-list-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -275,7 +285,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-enemies-main",
     question: "Which faction is the main enemy in Skibidi Wars?",
     answer:
-      "The Toilet faction is the primary enemy faction in Skibidi Wars. The Steam store copy places Toilet Emperor as the primary antagonist at the head of that faction.",
+      "The Skibidi Toilets are the primary enemy side in Skibidi Wars. The Steam store copy places Toilet Emperor as the primary antagonist at the head of that side.",
     pageIds: ["fixed-enemies-list-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -285,7 +295,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-enemies-boss-vs",
     question: "How are named bosses different from regular enemies?",
     answer:
-      "Named bosses are a subset of the Toilet faction that gate episode progression. Regular enemies are the standard units fielded by the opposing faction during a mission.",
+      "Named bosses are a subset of the Skibidi Toilets that gate episode progression. Regular enemies are the standard units fielded by the opposing side during a mission.",
     pageIds: ["fixed-enemies-list-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -293,9 +303,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-enemies-other-factions",
-    question: "Are there more enemy factions beyond Toilets?",
+    question: "Are there more enemy factions beyond Skibidi Toilets?",
     answer:
-      "The Steam store copy confirms Toilets as the primary enemy faction. Whether additional enemy factions exist beyond Toilets in the Skibidi Wars build is not announced as of the research date.",
+      "The Steam store copy names only two factions (Cameraman vs Skibidi Toilets). Whether additional enemy-side branches exist beyond the Skibidi Toilets in the Skibidi Wars build is not announced as of the research date.",
     pageIds: ["fixed-enemies-list-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -343,9 +353,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-titan-speakerman-faction",
-    question: "What faction is Titan Speakerman in?",
+    question: "What side is Titan Speakerman on?",
     answer:
-      "Titan Speakerman belongs to the Speaker faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+      "Titan Speakerman is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The Speaker and Titan labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology rather than current-game faction names.",
     pageIds: ["fixed-titan-speakerman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -365,7 +375,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-speakerman-stats",
     question: "What is the Skibidi Wars Titan Speakerman hit points and damage?",
     answer:
-      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
     pageIds: ["fixed-titan-speakerman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -375,7 +385,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-speakerman-boss",
     question: "Is Titan Speakerman a boss in Skibidi Wars?",
     answer:
-      "Yes. Titan Speakerman appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+      "Yes. Titan Speakerman appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
     pageIds: ["fixed-titan-speakerman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -383,9 +393,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-titan-tv-man-faction",
-    question: "What faction is Titan TV Man in?",
+    question: "What side is Titan TV Man on?",
     answer:
-      "Titan TV Man belongs to the TV faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+      "Titan TV Man is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The TV and Titan labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology rather than current-game faction names.",
     pageIds: ["fixed-titan-tv-man-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -405,7 +415,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-tv-man-stats",
     question: "What is the Skibidi Wars Titan TV Man hit points and damage?",
     answer:
-      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
     pageIds: ["fixed-titan-tv-man-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -415,7 +425,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-tv-man-boss",
     question: "Is Titan TV Man a boss in Skibidi Wars?",
     answer:
-      "Yes. Titan TV Man appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+      "Yes. Titan TV Man appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
     pageIds: ["fixed-titan-tv-man-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -423,9 +433,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-titan-cameraman-faction",
-    question: "What faction is Titan Cameraman in?",
+    question: "What side is Titan Cameraman on?",
     answer:
-      "Titan Cameraman belongs to the Camera faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+      "Titan Cameraman is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The Camera and Titan labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology rather than current-game faction names.",
     pageIds: ["fixed-titan-cameraman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -445,7 +455,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-cameraman-stats",
     question: "What is the Skibidi Wars Titan Cameraman hit points and damage?",
     answer:
-      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+      "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
     pageIds: ["fixed-titan-cameraman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -455,7 +465,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-titan-cameraman-boss",
     question: "Is Titan Cameraman a boss in Skibidi Wars?",
     answer:
-      "Yes. Titan Cameraman appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+      "Yes. Titan Cameraman appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
     pageIds: ["fixed-titan-cameraman-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -465,7 +475,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-toilet-emperor-primary",
     question: "Who is the primary antagonist in Skibidi Wars?",
     answer:
-      "Toilet Emperor is the Toilet faction's primary antagonist per the Steam store description and heads the launch-day boss roster.",
+      "Toilet Emperor is the Skibidi Toilets' primary antagonist per the Steam store description and heads the launch-day boss roster.",
     pageIds: ["fixed-toilet-emperor-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -475,7 +485,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-toilet-emperor-hp",
     question: "What are the Skibidi Wars Toilet Emperor hit points?",
     answer:
-      "Exact hit points, ability damage, and ability names are not announced as of 2026-09-17. The Steam store confirms the role and faction membership only.",
+      "Exact hit points, ability damage, and ability names are not announced as of 2026-09-17. The Steam store confirms the role and faction side only.",
     pageIds: ["fixed-toilet-emperor-en-US"],
     category: "wiki",
     schemaEligible: true,
@@ -505,7 +515,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-beginners-launch-day",
     question: "Is Skibidi Wars out on launch day?",
     answer:
-      "Yes. Skibidi Wars launches on Steam on 2026-09-17. Confirm the live store listing before purchasing in case the launch slot updates after the research date.",
+      "Yes. Skibidi Wars entered Steam Early Access on 2026-09-17 with a planned roughly six-month window before full release. Confirm the live store listing before purchasing in case the launch slot updates after the research date.",
     pageIds: ["fixed-beginners-guide-en-US"],
     category: "gameplay",
     schemaEligible: true,
@@ -513,9 +523,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "faq-beginners-best-starter",
-    question: "What is the best starter faction in Skibidi Wars?",
+    question: "What is the best starter side in Skibidi Wars?",
     answer:
-      "The Steam store copy does not rank factions. Pick Allies if you want to play the Cameras, TVs, Speakers, and Titans roster, or pick Toilets if you want to play the primary antagonist faction.",
+      "The Steam store copy does not rank factions. Pick Cameraman if you want the IP-legacy Camera, TV, Speaker, and Titan sub-labels, or pick Skibidi Toilets if you want to play the primary antagonist side with Toilet Emperor.",
     pageIds: ["fixed-beginners-guide-en-US"],
     category: "gameplay",
     schemaEligible: true,

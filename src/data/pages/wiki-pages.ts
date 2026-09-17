@@ -11,27 +11,28 @@ export const wikiPages: PageContent[] = [
     pageType: "wiki",
     presentation: { shell: "hub", variant: "card-grid" },
     h1: "Skibidi Wars Characters and Unit Roster",
-    seoTitle: "Skibidi Wars Characters: Full Faction Roster Guide",
+    seoTitle: "Skibidi Wars Characters: Two-Faction Roster Guide",
     metaDescription:
-      "Explore Skibidi Wars characters across the launch-day faction roster. Allies, Toilets, Cameras, TVs, Speakers, and Titans with verified Steam store references.",
+      "Explore Skibidi Wars characters across the launch-day two-faction roster: Cameraman vs Skibidi Toilets, with IP-legacy sub-faction terminology noted.",
     summary:
-      "Browse the launch-day Skibidi Wars character and unit roster, organized around the six Steam-confirmed factions with autocomplete-confirmed headline characters.",
+      "Browse the launch-day Skibidi Wars character and unit roster, organized around the two Steam-confirmed factions (Cameraman vs Skibidi Toilets) with autocomplete-confirmed headline characters.",
     hero: {
       eyebrow: "Characters & Units",
       subtitle:
-        "Skibidi Wars characters launch with six factions per the Steam store description: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+        "Skibidi Wars ships with two factions per the Steam store description: Cameraman versus Skibidi Toilets. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game faction names.",
       ctas: [
         { label: "Toilet Emperor", href: "/toilet-emperor/" },
         { label: "Bosses list", href: "/bosses/" },
       ],
     },
     quickAnswer:
-      "Skibidi Wars characters launch with six factions per the Steam store description: Allies, Toilets, Cameras, TVs, Speakers, and Titans. The Skibidi Wars characters lineup also includes autocomplete-confirmed names like Titan Speakerman, Titan TV Man, Titan Cameraman, and the primary antagonist Toilet Emperor. Specific character stats, ability damage, and unlock conditions are not announced as of 2026-09-17.",
+      "Skibidi Wars ships with two factions per the Steam store description: Cameraman and Skibidi Toilets. The Skibidi Wars characters lineup also includes autocomplete-confirmed names like Titan Speakerman, Titan TV Man, Titan Cameraman, and the primary antagonist Toilet Emperor. Camera, TV, Speaker, and Titan sub-labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology. Specific character stats, ability damage, and unlock conditions are not announced as of 2026-09-17.",
     keyFacts: [
-      { label: "Factions", value: "Allies, Toilets, Cameras, TVs, Speakers, Titans" },
+      { label: "Factions", value: "Cameraman, Skibidi Toilets" },
       { label: "Headline boss", value: "Toilet Emperor" },
-      { label: "Headline Titans", value: "Titan Speakerman, Titan TV Man, Titan Cameraman" },
+      { label: "Headline Titans (IP terminology)", value: "Titan Speakerman, Titan TV Man, Titan Cameraman" },
       { label: "Source", value: "Steam store description (AppID 4315830)" },
+      { label: "Developer & Publisher", value: "Pakumi" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -40,46 +41,46 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "What factions are in Skibidi Wars at launch?",
-        body: "The Steam store description lists six factions: Allies, Toilets, Cameras, TVs, Speakers, and Titans. Every named Skibidi Wars character belongs to one of those faction buckets.",
+        body: "The Steam store description names two factions: Cameraman and Skibidi Toilets. Camera, TV, Speaker, and Titan labels appear in the YouTube Skibidi Toilet IP and are treated here as legacy terminology rather than current-game faction names.",
       },
       {
         id: "callout-faq-characters-primary-antagonist",
         type: "callout",
         tone: "confirmed",
         title: "Who is the primary antagonist in Skibidi Wars?",
-        body: "Toilet Emperor is the Toilet faction's primary antagonist per the Steam store description and heads the boss roster on launch day.",
+        body: "Toilet Emperor is the Skibidi Toilets' primary antagonist per the Steam store description and heads the boss roster on launch day.",
       },
       {
         id: "callout-faq-characters-stats-announced",
         type: "callout",
         tone: "caution",
         title: "Are specific character stats announced for Skibidi Wars?",
-        body: "No. Specific character stats, ability damage numbers, and unlock conditions are not announced as of 2026-09-17. The launch-day roster confirms faction labels and autocomplete-confirmed character names only.",
+        body: "No. Specific character stats, ability damage numbers, and unlock conditions are not announced as of 2026-09-17. The launch-day roster confirms the two faction labels and autocomplete-confirmed character names only.",
       },
       {
         id: "callout-faq-characters-where-from",
         type: "callout",
         tone: "confirmed",
         title: "Where do the Skibidi Wars characters come from?",
-        body: "The character names and faction terminology come from the YouTube Skibidi Toilet web series by DaFuq!?Boom!. Skibidi Wars on Steam is the first official Skibidi Wars game adaptation of that series.",
+        body: "Pakumi develops and publishes Skibidi Wars on Steam. The character names and IP-legacy sub-faction terminology come from the YouTube Skibidi Toilet web series by DaFuq!?Boom!, which is the source IP the game adapts.",
       },
       {
         id: "section-factions-launch",
         type: "prose",
         heading: "Skibidi Wars characters by faction at launch",
-        body: "The Steam store description for Skibidi Wars (AppID 4315830) lists six named factions that frame the launch-day roster: Allies, Toilets, Cameras, TVs, Speakers, and Titans. Each faction groups characters and units that share a faction identity, a visual archetype, and a role in the faction-versus-faction combat loop. Faction labels appear verbatim from the Steam store description and are treated as current-game facts.",
+        body: "The Steam store description for Skibidi Wars (AppID 4315830) names two factions that frame the launch-day roster: Cameraman and Skibidi Toilets. Camera, TV, Speaker, and Titan labels appear in autocomplete and in the YouTube Skibidi Toilet IP, but the Steam store does not list them as separate current-game factions; treat them as legacy IP terminology. Each named character belongs to one of the two Steam-confirmed factions and a role in the two-faction combat loop.",
       },
       {
         id: "section-headline-characters",
         type: "prose",
         heading: "Headline characters and units",
-        body: "Autocomplete-confirmed named characters on launch day include Titan Speakerman (Speaker faction Titan-tier unit with a battle armor variant), Titan TV Man (TV faction with jr, upgraded, 3.0, and battle armor variants), Titan Cameraman (Camera faction with upgraded and battle armor variants), Toilet Emperor (Toilet faction primary antagonist), Tri Titan (multi-faction Titan form), Necromancer (Toilet faction specialist), Computerman (computer-themed Camera faction specialist), and Malware (digital-style enemy).",
+        body: "Autocomplete-confirmed named characters on launch day include Titan Speakerman (IP-legacy Speaker unit with a battle armor variant label), Titan TV Man (IP-legacy TV unit with jr, upgraded, 3.0, and battle armor variant labels), Titan Cameraman (IP-legacy Camera unit with upgraded and battle armor variant labels), Toilet Emperor (Skibidi Toilets primary antagonist), Tri Titan (multi-form Titan reference), Necromancer (Skibidi Toilets specialist reference), Computerman (IP-legacy Camera specialist reference), and Malware (digital-style enemy reference). Each label is recorded as IP terminology unless the Steam store explicitly lists it as a current-game unit.",
       },
       {
         id: "section-character-origins",
         type: "prose",
         heading: "Where Skibidi Wars characters come from",
-        body: "Skibidi Wars is a launch-day adaptation of the YouTube Skibidi Toilet web series by DaFuq!?Boom!. The Steam release is the first official Skibidi Wars game; no prior Skibidi Wars title exists in any major storefront as of 2026-09-17. Character names, faction labels, and episode references draw on terminology from the YouTube series. Treat variant labels like battle armor, upgraded, 3.0, and jr as terminology inherited from the parent series rather than confirmed current-game forms.",
+        body: "Pakumi develops and publishes Skibidi Wars on Steam. The Steam release is the first official Skibidi Wars game; no prior Skibidi Wars title exists in any major storefront as of 2026-09-17. Character names, sub-faction labels, and episode references draw on terminology from the YouTube Skibidi Toilet web series created by DaFuq!?Boom!. Treat variant labels like battle armor, upgraded, 3.0, and jr as terminology inherited from the parent series rather than confirmed current-game forms.",
       },
       {
         id: "grid-headline-characters",
@@ -202,23 +203,23 @@ export const wikiPages: PageContent[] = [
     h1: "Skibidi Wars Bosses: Launch Roster and Counters",
     seoTitle: "Skibidi Wars Bosses: Roster, Tiers and Counter Units",
     metaDescription:
-      "See the Skibidi Wars bosses roster confirmed for Steam launch, how Toilet Emperor and the Titan class fit, and which bosses are not yet officially listed.",
+      "See the Skibidi Wars bosses roster confirmed for Steam launch, how Toilet Emperor fits the Skibidi Toilets side, and which boss labels are IP terminology rather than current-game units.",
     summary:
-      "Browse the launch-day Skibidi Wars boss roster, including the Steam-confirmed Toilet Emperor and Titan class, plus autocomplete-confirmed boss names that remain IP terminology clarification.",
+      "Browse the launch-day Skibidi Wars boss roster, including the Steam-confirmed Toilet Emperor, plus autocomplete-confirmed boss names that remain IP terminology clarification.",
     hero: {
       eyebrow: "Boss Roster",
       subtitle:
-        "The Steam store page names Toilet Emperor as the primary antagonist and lists Titans as one of the six launch factions.",
+        "The Steam store page names Toilet Emperor as the primary antagonist on the Skibidi Toilets side. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game factions.",
       ctas: [
         { label: "Toilet Emperor", href: "/toilet-emperor/" },
         { label: "Enemies list", href: "/enemies/" },
       ],
     },
     quickAnswer:
-      "The Steam store page for Skibidi Wars (AppID 4315830) names Toilet Emperor as the primary antagonist and lists Titans as one of the six launch factions. Tri Titan, Necromancer, Computerman, and Malware are search-active on en-US autocomplete and are widely associated with the Skibidi Toilet IP, but the Steam store does not explicitly list them as Skibidi Wars bosses as of the research date.",
+      "The Steam store page for Skibidi Wars (AppID 4315830) names Toilet Emperor as the primary antagonist on the Skibidi Toilets side. Tri Titan, Necromancer, Computerman, and Malware are search-active on en-US autocomplete and are widely associated with the Skibidi Toilet IP, but the Steam store does not explicitly list them as Skibidi Wars bosses as of the research date.",
     keyFacts: [
       { label: "Steam-confirmed boss", value: "Toilet Emperor" },
-      { label: "Boss tier (faction)", value: "Titan class" },
+      { label: "Faction", value: "Skibidi Toilets (Cameraman vs Skibidi Toilets)" },
       { label: "Autocomplete-confirmed (IP terminology)", value: "Tri Titan, Necromancer, Computerman, Malware" },
       { label: "Last verified", value: "2026-09-17" },
     ],
@@ -249,25 +250,25 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "Do Skibidi Wars boss fights differ across factions?",
-        body: "The Steam store describes faction-versus-faction combat in which named bosses gate episode progression. The exact boss roster per faction, the order of encounters, and faction-specific counters are not announced as of the research date.",
+        body: "The Steam store describes a two-faction combat loop (Cameraman vs Skibidi Toilets) in which named bosses gate episode progression. The exact boss roster per side, the order of encounters, and faction-specific counters are not announced as of the research date.",
       },
       {
         id: "section-launch-roster",
         type: "prose",
         heading: "Skibidi Wars boss roster at launch",
-        body: "The Steam store describes Skibidi Wars as a faction-versus-faction game where each faction fields named characters. Within that framing, the store names the Toilet Emperor as the primary antagonist and lists Titans as one of the six factions (Allies, Toilets, Cameras, TVs, Speakers, Titans). Search autocomplete in en-US confirms five Skibidi Wars boss names as actively searched queries: Toilet Emperor (Steam-confirmed primary antagonist), Tri Titan, Necromancer, Computerman, and Malware (autocomplete-confirmed, IP legacy-reference structure).",
+        body: "The Steam store describes Skibidi Wars as a two-faction game (Cameraman vs Skibidi Toilets). Within that framing, the store names the Toilet Emperor as the primary antagonist on the Skibidi Toilets side. Search autocomplete in en-US confirms five Skibidi Wars boss names as actively searched queries: Toilet Emperor (Steam-confirmed primary antagonist), Tri Titan, Necromancer, Computerman, and Malware (autocomplete-confirmed, IP legacy-reference structure).",
       },
       {
         id: "section-toilet-emperor-titan",
         type: "prose",
-        heading: "Toilet Emperor and the Titan class",
-        body: "Toilet Emperor is the Steam-confirmed primary antagonist for Skibidi Wars. The store description places the Toilet Emperor at the head of the Toilet faction and frames it as the gating encounter for the Allies player's late-stage missions. The Titan class is the Steam-confirmed faction label that holds the largest named units in the game. The store copy groups Titans alongside Cameras, TVs, and Speakers as the Allies-side fielded units that battle the Toilet faction.",
+        heading: "Toilet Emperor and the Titan IP label",
+        body: "Toilet Emperor is the Steam-confirmed primary antagonist for Skibidi Wars. The store description places the Toilet Emperor at the head of the Skibidi Toilets side and frames it as the gating encounter for the Cameraman player's late-stage missions. The Titan label appears in autocomplete and in the YouTube Skibidi Toilet IP for large named units, but the Steam store does not list it as a separate current-game faction; treat it as IP terminology carried over from the parent series.",
       },
       {
         id: "section-tri-necro-comp-mal",
         type: "prose",
         heading: "Tri Titan, Necromancer, Computerman, Malware",
-        body: "Tri Titan — the autocomplete seed skibidi wars tri titan pairs the name with the Skibidi Wars brand. The Steam store validates the Titan faction label but does not explicitly list Tri Titan as a Skibidi Wars boss. Necromancer, Computerman, and Malware share the same boundary: search-active because of the Skibidi Toilet YouTube IP but not listed as Skibidi Wars bosses by the Steam store. All four are recorded as IP terminology clarification.",
+        body: "Tri Titan — the autocomplete seed skibidi wars tri titan pairs the name with the Skibidi Wars brand. The Steam store does not explicitly list Tri Titan as a Skibidi Wars boss. Necromancer, Computerman, and Malware share the same boundary: search-active because of the Skibidi Toilet YouTube IP but not listed as Skibidi Wars bosses by the Steam store. All four are recorded as IP terminology clarification.",
       },
     ],
     faqIds: [
@@ -290,27 +291,26 @@ export const wikiPages: PageContent[] = [
     url: "/enemies",
     pageType: "wiki",
     presentation: { shell: "hub", variant: "card-grid" },
-    h1: "Skibidi Wars Enemies: Faction Roster at Launch",
-    seoTitle: "Skibidi Wars Enemies: Faction Roster and Named Bosses",
+    h1: "Skibidi Wars Enemies: Skibidi Toilets Roster at Launch",
+    seoTitle: "Skibidi Wars Enemies: Skibidi Toilets vs Cameraman",
     metaDescription:
-      "Skibidi Wars enemies: which factions appear at launch, how the Toilet faction and named bosses differ, and what is not announced for individual units.",
+      "Skibidi Wars enemies: the two-faction launch roster (Cameraman vs Skibidi Toilets), how Toilet Emperor fits, and what is not announced for individual units.",
     summary:
-      "Understand the Skibidi Wars enemy factions at launch, the difference between regular enemy encounters and named bosses, and what the Steam store confirms versus leaves unannounced.",
+      "Understand the Skibidi Wars enemy side at launch (Skibidi Toilets), the difference between regular enemy encounters and named bosses, and what the Steam store confirms versus leaves unannounced.",
     hero: {
       eyebrow: "Enemies",
       subtitle:
-        "The Toilet faction is the primary enemy force in Skibidi Wars. The Allies-side factions (Cameras, TVs, Speakers, Titans) are the force that fights them.",
+        "The Skibidi Wars enemies page maps the two-faction launch roster: Cameraman versus Skibidi Toilets. Toilet Emperor heads the Skibidi Toilets side. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are recorded as legacy terminology.",
       ctas: [
         { label: "Bosses list", href: "/bosses/" },
         { label: "Characters", href: "/characters/" },
       ],
     },
     quickAnswer:
-      "The Steam store page for Skibidi Wars (AppID 4315830) lists the Skibidi Wars enemies roster: the Toilets as the primary enemy faction, with the Allies faction (Cameras, TVs, Speakers, Titans) fielded against them. Named bosses such as Toilet Emperor sit at the top of the Toilet faction and gate episode progression. Exact enemy-by-enemy stats are not announced as of the research date.",
+      "The Steam store page for Skibidi Wars (AppID 4315830) frames Skibidi Wars as a two-faction game: Cameraman versus Skibidi Toilets. The Skibidi Toilets side is the player-facing enemy force for a Cameraman run, with Toilet Emperor as the headline antagonist. Camera, TV, Speaker, and Titan labels come from the YouTube IP and are recorded here as legacy terminology rather than current-game faction names. Exact enemy-by-enemy stats are not announced as of the research date.",
     keyFacts: [
-      { label: "Primary enemy faction", value: "Toilets" },
+      { label: "Factions", value: "Cameraman vs Skibidi Toilets" },
       { label: "Headline enemy", value: "Toilet Emperor" },
-      { label: "Allies-side factions", value: "Cameras, TVs, Speakers, Titans" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -319,21 +319,21 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "Which faction is the main enemy in Skibidi Wars?",
-        body: "The Toilet faction is the primary enemy faction in Skibidi Wars. The Steam store copy places Toilet Emperor as the primary antagonist at the head of that faction.",
+        body: "The Skibidi Toilets are the primary enemy side in Skibidi Wars. The Steam store copy places Toilet Emperor as the primary antagonist at the head of that side.",
       },
       {
         id: "callout-faq-enemies-boss-vs",
         type: "callout",
         tone: "confirmed",
         title: "How are named bosses different from regular enemies?",
-        body: "Named bosses are a subset of the Toilet faction that gate episode progression. Regular enemies are the standard units fielded by the opposing faction during a mission.",
+        body: "Named bosses are a subset of the Skibidi Toilets that gate episode progression. Regular enemies are the standard units fielded by the opposing side during a mission.",
       },
       {
         id: "callout-faq-enemies-other-factions",
         type: "callout",
         tone: "caution",
-        title: "Are there more enemy factions beyond Toilets?",
-        body: "The Steam store copy confirms Toilets as the primary enemy faction. Whether additional enemy factions exist beyond Toilets in the Skibidi Wars build is not announced as of the research date.",
+        title: "Are there more enemy factions beyond Skibidi Toilets?",
+        body: "The Steam store copy names only two factions (Cameraman vs Skibidi Toilets). Whether additional enemy-side branches exist beyond the Skibidi Toilets in the Skibidi Wars build is not announced as of the research date.",
       },
       {
         id: "callout-faq-enemies-stats",
@@ -346,19 +346,19 @@ export const wikiPages: PageContent[] = [
         id: "section-launch-factions",
         type: "prose",
         heading: "Skibidi Wars enemies at launch",
-        body: "The Steam store copy frames Skibidi Wars combat as faction-versus-faction selection between Allies and Toilets. Within the Allies faction, the store lists four fielded unit groups: Cameras (Camera faction units, including Titan Cameraman and standard Cameraman), TVs (TV faction units, including Titan TV Man and standard TV Man), Speakers (Speaker faction units, including Titan Speakerman and standard Speakerman), and Titans (Titan class units that act as the largest Allies-side combatants). Against the Allies, the Toilet faction serves as the primary enemy force.",
+        body: "The Steam store copy frames Skibidi Wars combat as a two-faction choice between Cameraman and Skibidi Toilets. The Cameraman side draws on characters inherited from the Skibidi Toilet YouTube IP, including standard Cameramen plus Titan Cameraman as a headline large unit. The Skibidi Toilets side is the opposing force, with Toilet Emperor as the headline boss.",
       },
       {
         id: "section-confirms",
         type: "prose",
         heading: "What the Steam store confirms about enemy units",
-        body: "The Steam store confirms: the Toilet faction is the primary enemy faction in Skibidi Wars; the Toilet Emperor heads the Toilet faction as the primary antagonist; named-boss progression is the enemy encounter structure that gates episodes; and the Allies-side factions (Cameras, TVs, Speakers, Titans) are the force that fights the Toilet faction. Anything more specific is not announced as of the research date.",
+        body: "The Steam store confirms: Skibidi Wars uses a two-faction structure (Cameraman vs Skibidi Toilets); the Skibidi Toilets side is the primary enemy force for the Cameraman player; the Toilet Emperor heads the Skibidi Toilets as the primary antagonist; named-boss progression is the encounter structure that gates episodes. Anything more specific is not announced as of the research date.",
       },
       {
         id: "section-toilets-vs-bosses",
         type: "prose",
-        heading: "Toilets vs named bosses",
-        body: "The Toilet faction in Skibidi Wars is the broader enemy roster. Named bosses such as Toilet Emperor are a subset of the Toilet faction that gate episode progression. Search autocomplete in en-US confirms three other Toilet-faction boss names as actively searched queries: Tri Titan, Necromancer, Computerman, and Malware. Of these, only Toilet Emperor is explicitly listed by the Steam store copy; the others are recorded here as IP terminology clarification.",
+        heading: "Skibidi Toilets vs named bosses",
+        body: "The Skibidi Toilets are the broader enemy roster in Skibidi Wars. Named bosses such as Toilet Emperor are a subset of the Skibidi Toilets that gate episode progression. Search autocomplete in en-US confirms three other Skibidi-Toilets-side boss names as actively searched queries: Tri Titan, Necromancer, Computerman, and Malware. Of these, only Toilet Emperor is explicitly listed by the Steam store copy; the others are recorded here as IP terminology clarification.",
       },
     ],
     faqIds: [
@@ -390,18 +390,20 @@ export const wikiPages: PageContent[] = [
     hero: {
       eyebrow: "Wiki FAQ Hub",
       subtitle:
-        "No third-party Skibidi Wars wiki exists yet as of the September 17, 2026 research date. The Steam Community Hub for AppID 4315830 is the current FAQ surface.",
+        "Skibidi Wars entered Steam Early Access on September 17, 2026 with two factions (Cameraman vs Skibidi Toilets). No third-party Skibidi Wars wiki exists yet as of the September 17, 2026 research date. The Steam Community Hub for AppID 4315830 is the current FAQ surface.",
       ctas: [
         { label: "Characters", href: "/characters/" },
         { label: "Episode list", href: "/episodes/" },
       ],
     },
     quickAnswer:
-      "The Skibidi Wars wiki is the launch-day reference surface for the September 17, 2026 Steam release. The Steam Community Hub for AppID 4315830 is the current FAQ surface for Skibidi Wars. No third-party community wiki exists yet as of the September 17, 2026 research date, and this site collects the launch-day FAQs so common first-day questions route to a single answer.",
+      "The Skibidi Wars wiki is the launch-day reference surface for the September 17, 2026 Steam Early Access release by Pakumi. The Steam Community Hub for AppID 4315830 is the current FAQ surface for Skibidi Wars. No third-party community wiki exists yet as of the September 17, 2026 research date, and this site collects the launch-day FAQs so common first-day questions route to a single answer.",
     keyFacts: [
       { label: "FAQ surface", value: "Steam Community Hub (AppID 4315830)" },
       { label: "Third-party wiki", value: "None yet" },
-      { label: "Publisher source", value: "DaFuq!?Boom! developer profile" },
+      { label: "Developer & Publisher", value: "Pakumi" },
+      { label: "IP creator", value: "DaFuq!?Boom! (Skibidi Toilet YouTube series)" },
+      { label: "Factions", value: "Cameraman vs Skibidi Toilets" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -430,13 +432,13 @@ export const wikiPages: PageContent[] = [
         id: "section-wiki-status",
         type: "prose",
         heading: "Is there a Skibidi Wars wiki?",
-        body: "There is no third-party Skibidi Wars wiki yet as of the September 17, 2026 research date. The Steam Community Hub for AppID 4315830 acts as the current FAQ surface for Skibidi Wars launch-day questions, and the DaFuq!?Boom! developer profile on Steam is the publisher-side source for any future wiki expansion or community-led reference project. This launch-day hub collects the FAQ surface that the Skibidi Wars wiki will grow into as the Steam player base expands.",
+        body: "There is no third-party Skibidi Wars wiki yet as of the September 17, 2026 research date. The Steam Community Hub for AppID 4315830 acts as the current FAQ surface for Skibidi Wars launch-day questions, and the Pakumi developer profile on Steam is the publisher-side source for any future wiki expansion or community-led reference project. This launch-day hub collects the FAQ surface that the Skibidi Wars wiki will grow into as the Steam player base expands.",
       },
       {
         id: "section-launch-day-routing",
         type: "prose",
         heading: "Where do launch-day Skibidi Wars questions go?",
-        body: "Launch-day Skibidi Wars questions route through three surfaces. The Steam store page for AppID 4315830 is the authoritative source for release date, system requirements, supported languages, factions, and named characters. The Steam Community Hub for AppID 4315830 carries announcements and player discussions that act as the current FAQ surface. The Skibidi Wars FAQ hub collects the launch-day FAQ so common first-day questions route to a single answer.",
+        body: "Launch-day Skibidi Wars questions route through three surfaces. The Steam store page for AppID 4315830 is the authoritative source for the Early Access state, the two-faction roster (Cameraman vs Skibidi Toilets), system requirements, supported languages, and named characters. The Steam Community Hub for AppID 4315830 carries announcements and player discussions that act as the current FAQ surface. The Skibidi Wars FAQ hub collects the launch-day FAQ so common first-day questions route to a single answer.",
       },
       {
         id: "grid-topics",
@@ -474,24 +476,24 @@ export const wikiPages: PageContent[] = [
     h1: "Skibidi Wars Titan Speakerman: Identity, Role, and Variants",
     seoTitle: "Skibidi Wars Titan Speakerman: Role, Variants & Tips",
     metaDescription:
-      "Skibidi Wars Titan Speakerman is a Speaker faction Titan. Battle armor and episode 106 are legacy terminology; in-game stats are not announced as of 2026-09-17.",
+      "Skibidi Wars Titan Speakerman is a Cameraman-side headline unit with battle armor and episode 106 as legacy IP terminology; in-game stats are not announced as of 2026-09-17.",
     summary:
-      "Understand the Skibidi Wars Titan Speakerman identity, the Speaker faction context, and the IP terminology that surrounds battle armor and episode 106.",
+      "Understand the Skibidi Wars Titan Speakerman identity, the Cameraman-side context (Speaker is IP terminology), and the IP terminology that surrounds battle armor and episode 106.",
     hero: {
       eyebrow: "Titan Speakerman",
       subtitle:
-        "Titan Speakerman is a Titan-tier Speaker faction unit in Skibidi Wars, with identity confirmed via the Steam store description.",
+        "Titan Speakerman is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. Speaker is an IP-legacy sub-label.",
       ctas: [
         { label: "Titan TV Man", href: "/titan-tv-man/" },
         { label: "Bosses list", href: "/bosses/" },
       ],
     },
     quickAnswer:
-      "Titan Speakerman is a Titan-tier Speaker faction unit in Skibidi Wars, with identity confirmed via the Steam store description. The Skibidi Wars Titan Speakerman also appears alongside a battle armor variant and a legacy episode 106 reference inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats, ability damage, hit points, and unlock conditions are not announced as of 2026-09-17.",
+      "Titan Speakerman is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. The Skibidi Wars Titan Speakerman also appears alongside a battle armor variant and a legacy episode 106 reference inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats, ability damage, hit points, and unlock conditions are not announced as of 2026-09-17.",
     keyFacts: [
-      { label: "Faction", value: "Speakers (Allies-side)" },
-      { label: "Tier", value: "Titan" },
-      { label: "Headline role", value: "Top-tier Speaker unit and boss encounter" },
+      { label: "Side", value: "Cameraman" },
+      { label: "Sub-label (IP)", value: "Speaker / Titan" },
+      { label: "Headline role", value: "Top-tier Cameraman-side unit and boss encounter" },
       { label: "Variant labels (IP)", value: "battle armor" },
       { label: "Episode reference (IP)", value: "Episode 106" },
       { label: "Last verified", value: "2026-09-17" },
@@ -501,8 +503,8 @@ export const wikiPages: PageContent[] = [
         id: "callout-faq-titan-speakerman-faction",
         type: "callout",
         tone: "confirmed",
-        title: "What faction is Titan Speakerman in?",
-        body: "Titan Speakerman belongs to the Speaker faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+        title: "What side is Titan Speakerman on?",
+        body: "Titan Speakerman is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The Speaker and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game faction names.",
       },
       {
         id: "callout-faq-titan-speakerman-battle-armor",
@@ -516,20 +518,20 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "caution",
         title: "What is the Skibidi Wars Titan Speakerman hit points and damage?",
-        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
       },
       {
         id: "callout-faq-titan-speakerman-boss",
         type: "callout",
         tone: "confirmed",
         title: "Is Titan Speakerman a boss in Skibidi Wars?",
-        body: "Yes. Titan Speakerman appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+        body: "Yes. Titan Speakerman appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
       },
       {
         id: "section-identity",
         type: "prose",
         heading: "Who is the Skibidi Wars Titan Speakerman?",
-        body: "Titan Speakerman is a Speaker faction Titan unit in Skibidi Wars. The Speaker faction is one of the six factions the Steam store description lists at launch. Titan Speakerman sits at the top of the Speaker faction roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the faction-versus-faction combat loop. The identity is rooted in the YouTube Skibidi Toilet web series IP that the game adapts.",
+        body: "Titan Speakerman is a Cameraman-side Titan unit in Skibidi Wars. The Steam store description names the two launch factions as Cameraman versus Skibidi Toilets; Speaker and Titan are IP-legacy sub-labels from the YouTube Skibidi Toilet web series that the game adapts. Titan Speakerman sits at the top of that roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the two-faction combat loop.",
       },
       {
         id: "section-battle-armor",
@@ -541,7 +543,7 @@ export const wikiPages: PageContent[] = [
         id: "section-combat",
         type: "prose",
         heading: "How players use Titan Speakerman in combat",
-        body: "Players encounter Titan Speakerman in Skibidi Wars in two ways: as a high-tier Speaker faction unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing faction. The Steam store description supports both roles without itemizing stat blocks, ability damage, or hit points. Treat any deeper combat mechanic or counter logic as legacy-reference structure from the YouTube IP until the developer publishes official in-game numbers.",
+        body: "Players encounter Titan Speakerman in Skibidi Wars in two ways: as a high-tier Cameraman-side unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing side. The Steam store description supports both roles without itemizing stat blocks, ability damage, or hit points. Treat any deeper combat mechanic or counter logic as legacy-reference structure from the YouTube IP until Pakumi publishes official in-game numbers.",
       },
     ],
     faqIds: [
@@ -567,23 +569,23 @@ export const wikiPages: PageContent[] = [
     h1: "Skibidi Wars Titan TV Man: Variants, Role, and Counter Tactics",
     seoTitle: "Skibidi Wars Titan TV Man: Variants, Role & Tips",
     metaDescription:
-      "Skibidi Wars Titan TV Man is a TV faction Titan. Variants jr, upgraded, 3.0, and battle armor are IP terminology; in-game stats are not announced as of 2026-09-17.",
+      "Skibidi Wars Titan TV Man is a Cameraman-side headline unit. Variants jr, upgraded, 3.0, and battle armor are IP terminology; in-game stats are not announced as of 2026-09-17.",
     summary:
       "Understand the Skibidi Wars Titan TV Man identity, the four IP-legacy variant labels (jr, upgraded, 3.0, battle armor), and the episode 111 reference.",
     hero: {
       eyebrow: "Titan TV Man",
       subtitle:
-        "Titan TV Man is a Titan-tier TV faction unit in Skibidi Wars, with identity confirmed via the Steam store description.",
+        "Titan TV Man is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. TV is an IP-legacy sub-label.",
       ctas: [
         { label: "Titan Speakerman", href: "/titan-speakerman/" },
         { label: "Bosses list", href: "/bosses/" },
       ],
     },
     quickAnswer:
-      "Titan TV Man is a Titan-tier TV faction unit in Skibidi Wars, with identity confirmed via the Steam store description. The Skibidi Wars Titan TV Man also appears alongside jr, upgraded, and battle armor variant terminology inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats are not announced as of 2026-09-17.",
+      "Titan TV Man is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. The Skibidi Wars Titan TV Man also appears alongside jr, upgraded, and battle armor variant terminology inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats are not announced as of 2026-09-17.",
     keyFacts: [
-      { label: "Faction", value: "TVs (Allies-side)" },
-      { label: "Tier", value: "Titan" },
+      { label: "Side", value: "Cameraman" },
+      { label: "Sub-label (IP)", value: "TV / Titan" },
       { label: "Variant labels (IP)", value: "jr, upgraded, 3.0, battle armor" },
       { label: "Episode reference (IP)", value: "Episode 111" },
       { label: "Last verified", value: "2026-09-17" },
@@ -593,8 +595,8 @@ export const wikiPages: PageContent[] = [
         id: "callout-faq-titan-tv-man-faction",
         type: "callout",
         tone: "confirmed",
-        title: "What faction is Titan TV Man in?",
-        body: "Titan TV Man belongs to the TV faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+        title: "What side is Titan TV Man on?",
+        body: "Titan TV Man is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The TV and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game faction names.",
       },
       {
         id: "callout-faq-titan-tv-man-variants",
@@ -608,20 +610,20 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "caution",
         title: "What is the Skibidi Wars Titan TV Man hit points and damage?",
-        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
       },
       {
         id: "callout-faq-titan-tv-man-boss",
         type: "callout",
         tone: "confirmed",
         title: "Is Titan TV Man a boss in Skibidi Wars?",
-        body: "Yes. Titan TV Man appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+        body: "Yes. Titan TV Man appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
       },
       {
         id: "section-identity",
         type: "prose",
         heading: "Who is the Skibidi Wars Titan TV Man?",
-        body: "Titan TV Man is a TV faction Titan unit in Skibidi Wars. The TV faction is one of the six factions the Steam store description lists at launch. Titan TV Man sits at the top of the TV faction roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the faction-versus-faction combat loop.",
+        body: "Titan TV Man is a Cameraman-side Titan unit in Skibidi Wars. The Steam store description names the two launch factions as Cameraman versus Skibidi Toilets; TV and Titan are IP-legacy sub-labels from the YouTube Skibidi Toilet web series that the game adapts. Titan TV Man sits at the top of that roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the two-faction combat loop.",
       },
       {
         id: "section-variants",
@@ -633,7 +635,7 @@ export const wikiPages: PageContent[] = [
         id: "section-combat",
         type: "prose",
         heading: "How players use Titan TV Man in combat",
-        body: "Players encounter Titan TV Man in Skibidi Wars in two ways: as a high-tier TV faction unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing faction. The Steam store description supports both roles without itemizing stat blocks, ability damage, or hit points. The TV faction is framed as a ranged damage-dealing faction with screen-themed weaponry.",
+        body: "Players encounter Titan TV Man in Skibidi Wars in two ways: as a high-tier Cameraman-side unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing side. The Steam store description supports both roles without itemizing stat blocks, ability damage, or hit points. The TV sub-label is framed as a ranged damage-dealing archetype with screen-themed weaponry in the parent series.",
       },
     ],
     faqIds: [
@@ -659,25 +661,25 @@ export const wikiPages: PageContent[] = [
     h1: "Skibidi Wars Titan Cameraman: Upgrades, Role, and Counter Tactics",
     seoTitle: "Skibidi Wars Titan Cameraman: Role, Upgrades & Tips",
     metaDescription:
-      "Skibidi Wars Titan Cameraman is a Camera faction Titan. Upgraded and battle armor variants are IP terminology; in-game stats are not announced as of 2026-09-17.",
+      "Skibidi Wars Titan Cameraman is a Cameraman-side headline unit. Upgraded and battle armor variants are IP terminology; in-game stats are not announced as of 2026-09-17.",
     summary:
-      "Understand the Skibidi Wars Titan Cameraman identity, the IP-legacy variant labels (upgraded, battle armor), and the Computerman Camera faction reference.",
+      "Understand the Skibidi Wars Titan Cameraman identity, the IP-legacy variant labels (upgraded, battle armor), and the Computerman IP-legacy reference.",
     hero: {
       eyebrow: "Titan Cameraman",
       subtitle:
-        "Titan Cameraman is a Titan-tier Camera faction unit in Skibidi Wars, with identity confirmed via the Steam store description.",
+        "Titan Cameraman is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. Camera is an IP-legacy sub-label.",
       ctas: [
         { label: "Titan Speakerman", href: "/titan-speakerman/" },
         { label: "Bosses list", href: "/bosses/" },
       ],
     },
     quickAnswer:
-      "Titan Cameraman is a Titan-tier Camera faction unit in Skibidi Wars, with identity confirmed via the Steam store description. The Skibidi Wars Titan Cameraman also appears alongside upgraded and battle armor variant terminology inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats are not announced as of 2026-09-17.",
+      "Titan Cameraman is a Titan-tier unit from the Cameraman side of the Skibidi Wars roster, with identity confirmed via the Steam store description. The Skibidi Wars Titan Cameraman also appears alongside upgraded and battle armor variant terminology inherited from the YouTube Skibidi Toilet web series IP. Exact in-game stats are not announced as of 2026-09-17.",
     keyFacts: [
-      { label: "Faction", value: "Cameras (Allies-side)" },
-      { label: "Tier", value: "Titan" },
+      { label: "Side", value: "Cameraman" },
+      { label: "Sub-label (IP)", value: "Camera / Titan" },
       { label: "Variant labels (IP)", value: "upgraded, battle armor" },
-      { label: "Related reference (IP)", value: "Computerman (Camera faction specialist)" },
+      { label: "Related reference (IP)", value: "Computerman (Camera specialist)" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -685,8 +687,8 @@ export const wikiPages: PageContent[] = [
         id: "callout-faq-titan-cameraman-faction",
         type: "callout",
         tone: "confirmed",
-        title: "What faction is Titan Cameraman in?",
-        body: "Titan Cameraman belongs to the Camera faction, one of the six factions the Steam store lists at launch: Allies, Toilets, Cameras, TVs, Speakers, and Titans.",
+        title: "What side is Titan Cameraman on?",
+        body: "Titan Cameraman is on the Cameraman side of the two-faction Skibidi Wars roster (Cameraman vs Skibidi Toilets). The Camera and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game faction names.",
       },
       {
         id: "callout-faq-titan-cameraman-variants",
@@ -700,32 +702,32 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "caution",
         title: "What is the Skibidi Wars Titan Cameraman hit points and damage?",
-        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity and faction only.",
+        body: "Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17. The Steam store confirms identity only.",
       },
       {
         id: "callout-faq-titan-cameraman-boss",
         type: "callout",
         tone: "confirmed",
         title: "Is Titan Cameraman a boss in Skibidi Wars?",
-        body: "Yes. Titan Cameraman appears as a Titan-tier boss encounter when controlled by the opposing faction. See the bosses list for the full launch-day boss roster.",
+        body: "Yes. Titan Cameraman appears as a Titan-tier boss encounter when controlled by the opposing side. See the bosses list for the full launch-day boss roster.",
       },
       {
         id: "section-identity",
         type: "prose",
         heading: "Who is the Skibidi Wars Titan Cameraman?",
-        body: "Titan Cameraman is a Camera faction Titan unit in Skibidi Wars. The Camera faction is one of the six factions the Steam store description lists at launch. Titan Cameraman sits at the top of the Camera faction roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the faction-versus-faction combat loop.",
+        body: "Titan Cameraman is a Cameraman-side Titan unit in Skibidi Wars. The Steam store description names the two launch factions as Cameraman versus Skibidi Toilets; Camera and Titan are IP-legacy sub-labels from the YouTube Skibidi Toilet web series that the game adapts. Titan Cameraman sits at the top of that roster as the Titan-tier representative, which means it functions as both a playable high-tier character and a headline boss encounter inside the two-faction combat loop.",
       },
       {
         id: "section-variants",
         type: "prose",
         heading: "Upgraded and battle armor variants",
-        body: "The variant labels tied to Titan Cameraman come from the YouTube Skibidi Toilet IP terminology. The autocomplete clusters confirm two launch-day search terms: skibidi wars upgraded titan cameraman and skibidi wars battle armor titan cameraman. Each variant is a label the YouTube series attached to Titan Cameraman. Neither variant is listed as a separate in-game character, ship, or sale item by the Steam store. Computerman is a related Camera faction specialist referenced in the IP.",
+        body: "The variant labels tied to Titan Cameraman come from the YouTube Skibidi Toilet IP terminology. The autocomplete clusters confirm two launch-day search terms: skibidi wars upgraded titan cameraman and skibidi wars battle armor titan cameraman. Each variant is a label the YouTube series attached to Titan Cameraman. Neither variant is listed as a separate in-game character, ship, or sale item by the Steam store. Computerman is a related Camera sub-label specialist referenced in the IP.",
       },
       {
         id: "section-combat",
         type: "prose",
         heading: "How players use Titan Cameraman in combat",
-        body: "Players encounter Titan Cameraman in Skibidi Wars in two ways: as a high-tier Camera faction unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing faction. The Steam store description supports both roles without itemizing stat blocks. The Camera faction is framed as a frontline damage-dealing faction with lens-themed weaponry.",
+        body: "Players encounter Titan Cameraman in Skibidi Wars in two ways: as a high-tier Cameraman-side unit on their own roster, and as a boss-grade enemy encounter controlled by the opposing side. The Steam store description supports both roles without itemizing stat blocks. The Camera sub-label is framed as a frontline damage-dealing archetype with lens-themed weaponry in the parent series.",
       },
     ],
     faqIds: [
@@ -751,24 +753,25 @@ export const wikiPages: PageContent[] = [
     h1: "Skibidi Wars Toilet Emperor: Primary Antagonist Guide",
     seoTitle: "Skibidi Wars Toilet Emperor Boss and Counter Tactics",
     metaDescription:
-      "Skibidi Wars Toilet Emperor is the Toilet faction primary antagonist. HP, ability damage, and unlock conditions are not announced as of 2026-09-17.",
+      "Skibidi Wars Toilet Emperor is the Skibidi Toilets' primary antagonist. HP, ability damage, and unlock conditions are not announced as of 2026-09-17.",
     summary:
-      "Understand the Skibidi Wars Toilet Emperor role as primary antagonist, the Toilet faction context, and why counter-tactic detail remains IP terminology clarification.",
+      "Understand the Skibidi Wars Toilet Emperor role as primary antagonist, the Skibidi Toilets-side context, and why counter-tactic detail remains IP terminology clarification.",
     hero: {
       eyebrow: "Toilet Emperor",
       subtitle:
-        "Toilet Emperor is the Toilet faction primary antagonist in Skibidi Wars, with identity and role confirmed via the Steam store description.",
+        "Toilet Emperor is the Skibidi Toilets' primary antagonist in Skibidi Wars, with identity and role confirmed via the Steam store description.",
       ctas: [
         { label: "Bosses list", href: "/bosses/" },
         { label: "Enemies list", href: "/enemies/" },
       ],
     },
     quickAnswer:
-      "Toilet Emperor is the Toilet faction primary antagonist in Skibidi Wars, with identity and role confirmed via the Steam store description. The Skibidi Wars Toilet Emperor heads the launch-day boss roster and the Toilet faction roster as a whole. Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17.",
+      "Toilet Emperor is the Skibidi Toilets' primary antagonist in Skibidi Wars, with identity and role confirmed via the Steam store description. The Skibidi Wars Toilet Emperor heads the launch-day boss roster on the Skibidi Toilets side. Exact hit points, ability damage, and unlock conditions are not announced as of 2026-09-17.",
     keyFacts: [
-      { label: "Faction", value: "Toilets (primary antagonist)" },
-      { label: "Role", value: "Headline boss and Toilet faction head" },
-      { label: "Variant references (IP)", value: "Necromancer, Malware (Toilet specialists)" },
+      { label: "Side", value: "Skibidi Toilets (primary antagonist)" },
+      { label: "Role", value: "Headline boss and Skibidi Toilets head" },
+      { label: "Variant references (IP)", value: "Necromancer, Malware (Skibidi Toilets specialists)" },
+      { label: "Developer & Publisher", value: "Pakumi" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -777,14 +780,14 @@ export const wikiPages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "Who is the primary antagonist in Skibidi Wars?",
-        body: "Toilet Emperor is the Toilet faction's primary antagonist per the Steam store description and heads the launch-day boss roster.",
+        body: "Toilet Emperor is the Skibidi Toilets' primary antagonist per the Steam store description and heads the launch-day boss roster.",
       },
       {
         id: "callout-faq-toilet-emperor-hp",
         type: "callout",
         tone: "caution",
         title: "What are the Skibidi Wars Toilet Emperor hit points?",
-        body: "Exact hit points, ability damage, and ability names are not announced as of 2026-09-17. The Steam store confirms the role and faction membership only.",
+        body: "Exact hit points, ability damage, and ability names are not announced as of 2026-09-17. The Steam store confirms the role and faction side only.",
       },
       {
         id: "callout-faq-toilet-emperor-counter",
@@ -804,19 +807,19 @@ export const wikiPages: PageContent[] = [
         id: "section-identity",
         type: "prose",
         heading: "Who is the Skibidi Wars Toilet Emperor?",
-        body: "Toilet Emperor is the top-tier boss character in the Toilet faction in Skibidi Wars. The Toilet faction is one of the six factions the Steam store description lists at launch. Within that lineup, the Toilet faction is framed as the opposing force, and Toilet Emperor sits at the top of that faction as the headline antagonist. The Steam store description confirms the Toilet Emperor's role but does not itemize specific hit points, ability damage, ability names, or unlock conditions.",
+        body: "Toilet Emperor is the top-tier boss character on the Skibidi Toilets side in Skibidi Wars. The Steam store description names the two launch factions as Cameraman versus Skibidi Toilets. Within that lineup, the Skibidi Toilets side is framed as the opposing force, and Toilet Emperor sits at the top of that side as the headline antagonist. The Steam store description confirms the Toilet Emperor's role but does not itemize specific hit points, ability damage, ability names, or unlock conditions.",
       },
       {
         id: "section-antagonist",
         type: "prose",
         heading: "Toilet Emperor as primary antagonist",
-        body: "The Steam store description frames the Toilet faction as the opposing force in Skibidi Wars and identifies Toilet Emperor as the primary antagonist. The episode-driven mission flow ties Toilet Emperor to the launch-day story. The episode numbers and chapter labels tied to Toilet Emperor in the YouTube Skibidi Toilet IP are part of the legacy-reference structure that the Steam release inherits. Other named Toilet faction specialists appear in the autocomplete clusters alongside Toilet Emperor, including Necromancer and Malware.",
+        body: "The Steam store description frames the Skibidi Toilets side as the opposing force in Skibidi Wars and identifies Toilet Emperor as the primary antagonist. The episode-driven mission flow ties Toilet Emperor to the launch-day story. The episode numbers and chapter labels tied to Toilet Emperor in the YouTube Skibidi Toilet IP are part of the legacy-reference structure that the Steam release inherits. Other named Skibidi Toilets specialists appear in the autocomplete clusters alongside Toilet Emperor, including Necromancer and Malware.",
       },
       {
         id: "section-counter",
         type: "prose",
         heading: "How players counter Toilet Emperor",
-        body: "General launch-day counter guidance for Toilet Emperor follows the broader faction-versus-faction loop described by the Steam store: match Toilet Emperor with the highest-tier unit available on the player's own faction roster, drawn from Cameras, TVs, or Speakers; stack the opposing faction's headline damage dealers and treat Toilet Emperor as the priority target inside each boss phase; track the Toilet faction roster as a whole rather than just the headline unit. None of those steps are listed by the Steam store as official mechanics on launch day.",
+        body: "General launch-day counter guidance for Toilet Emperor follows the two-faction loop described by the Steam store: match Toilet Emperor with the highest-tier unit available on the player's own Cameraman-side roster, drawn from the IP-legacy Camera, TV, or Speaker sub-labels; stack the Cameraman-side headline damage dealers and treat Toilet Emperor as the priority target inside each boss phase; track the Skibidi Toilets roster as a whole rather than just the headline unit. None of those steps are listed by the Steam store as official mechanics on launch day.",
       },
     ],
     faqIds: [

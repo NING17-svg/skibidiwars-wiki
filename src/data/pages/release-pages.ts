@@ -10,26 +10,28 @@ export const releasePages: PageContent[] = [
     url: "/release-date",
     pageType: "release",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: "Skibidi Wars Release Date: When It Launched on Steam",
-    seoTitle: "Skibidi Wars Release Date — Launch Day Status (2026)",
+    h1: "Skibidi Wars Release Date and Early Access Status",
+    seoTitle: "Skibidi Wars Release Date & Early Access Roadmap (2026)",
     metaDescription:
-      "Skibidi Wars release date confirmed for September 17, 2026 on Steam. No Early Access, no delay announcements — see live store status and Day-1 facts.",
+      "Skibidi Wars entered Steam Early Access on September 17, 2026 via Pakumi. See the Early Access window, full-release roadmap, and how to confirm the live Steam status.",
     summary:
-      "Confirm the Skibidi Wars launch date on Steam, the Early Access status, and the source surfaces to verify the live release window.",
+      "Confirm the Skibidi Wars launch date on Steam, the Early Access state, the planned full-release roadmap, and the source surfaces to verify the live release window.",
     hero: {
       eyebrow: "Release Status",
       subtitle:
-        "The Skibidi Wars release date is September 17, 2026 on Steam. Skibidi Wars launched on September 17, 2026 with no Early Access as of the September 17, 2026 research date.",
+        "Skibidi Wars entered Steam Early Access on September 17, 2026, published by Pakumi with a planned roughly six-month window before the 1.0 release.",
       ctas: [
         { label: "System requirements", href: "/system-requirements/" },
         { label: "Price and editions", href: "/price/" },
       ],
     },
     quickAnswer:
-      "The Skibidi Wars release date is September 17, 2026 on Steam. Skibidi Wars launched on September 17, 2026 with no Early Access as of the September 17, 2026 research date. The launch is Windows PC only on Steam. DaFuq!?Boom! published the launch-day release as the first official Skibidi Wars game. If a cached listing disagrees, defer to the live Steam store page for AppID 4315830.",
+      "Skibidi Wars entered Steam Early Access on September 17, 2026 with a planned roughly six-month Early Access window. The Steam store and SteamDB metadata both flag AppID 4315830 as an active Early Access release; a full 1.0 release is the next milestone. The launch is Windows PC only on Steam. Pakumi is the developer and publisher; DaFuq!?Boom! created the source YouTube Skibidi Toilet IP the game adapts. If a cached listing disagrees, defer to the live Steam store page for AppID 4315830.",
     keyFacts: [
-      { label: "Launch date", value: "September 17, 2026" },
-      { label: "Early Access", value: "None as of 2026-09-17" },
+      { label: "Early Access launch", value: "September 17, 2026" },
+      { label: "Early Access window", value: "Approximately 6 months" },
+      { label: "Full release target", value: "After EA window closes" },
+      { label: "Developer & Publisher", value: "Pakumi" },
       { label: "Platform", value: "Windows PC (Steam)" },
       { label: "Steam AppID", value: "4315830" },
       { label: "Last verified", value: "2026-09-17" },
@@ -40,14 +42,21 @@ export const releasePages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "When did Skibidi Wars launch on Steam?",
-        body: "Skibidi Wars launched on Steam on September 17, 2026. The Skibidi Wars release date is the live Steam store release date for AppID 4315830 and is confirmed by SteamDB metadata. The DaFuq!?Boom! developer profile on Steam lists Skibidi Wars as a launch-day Steam title with no separate prior storefront release.",
+        body: "Skibidi Wars entered Steam Early Access on September 17, 2026. The Early Access launch date is the live Steam store release date for AppID 4315830 and is confirmed by SteamDB metadata. Pakumi's developer profile on Steam lists Skibidi Wars as a launch-day Steam title with no separate prior storefront release.",
       },
       {
         id: "callout-faq-release-date-is-skibidi-wars-early-access",
         type: "callout",
         tone: "confirmed",
-        title: "Is Skibidi Wars in Early Access?",
-        body: "Skibidi Wars is not in Early Access as of the September 17, 2026 research date. The Steam store page presents the title as a full launch-day release. There is no separate Early Access program, Founders package, or pre-purchase beta tied to the Steam listing for AppID 4315830.",
+        title: "Is Skibidi Wars in Early Access right now?",
+        body: "Yes. Skibidi Wars is an active Steam Early Access title at launch, with a planned roughly six-month window before the full release. The Steam store flags AppID 4315830 with the Early Access banner, and SteamDB records the Early Access release flag in its metadata.",
+      },
+      {
+        id: "callout-faq-release-date-roadmap-window",
+        type: "callout",
+        tone: "confirmed",
+        title: "How long is the Early Access window?",
+        body: "Pakumi has scoped the Early Access window at roughly six months from the September 17, 2026 launch. A concrete 1.0 release date is not announced; the Steam store and Steam Community Hub for AppID 4315830 are the live surfaces to watch for the final release date.",
       },
       {
         id: "callout-faq-release-date-will-skibidi-wars-come-to-consoles",
@@ -60,13 +69,19 @@ export const releasePages: PageContent[] = [
         id: "section-when-launched",
         type: "prose",
         heading: "When did Skibidi Wars launch on Steam?",
-        body: "Skibidi Wars launched on Steam on September 17, 2026. The Skibidi Wars release date is the live Steam store release date for AppID 4315830 and is confirmed by SteamDB metadata. The DaFuq!?Boom! developer profile on Steam lists Skibidi Wars as a launch-day Steam title with no separate prior storefront release. September 17, 2026 is the first official Skibidi Wars game in any major storefront. The Steam popularcomingsoon ranking recorded Skibidi Wars at #37 on launch day per the game-check brief. There is no separate console release as of the research date and no announced launch-day delay.",
+        body: "Skibidi Wars entered Steam Early Access on September 17, 2026. The launch date is the live Steam store release date for AppID 4315830 and is confirmed by SteamDB metadata, which records the Early Access release flag. Pakumi's developer profile on Steam lists Skibidi Wars as a launch-day Steam title. The DaFuq!?Boom!-created Skibidi Toilet YouTube web series is the source IP that Pakumi adapts. There is no separate console release as of the research date and no announced Early Access delay.",
+      },
+      {
+        id: "section-roadmap",
+        type: "prose",
+        heading: "Early Access roadmap: what ships before 1.0",
+        body: "Pakumi has scoped the Early Access window at roughly six months and published a roadmap of additions that land before the full release. The Steam store description lists the planned drops: new maps to expand the two-faction mission pool; more characters beyond the launch roster; upgraded matchmaking for fairer two-faction lobbies; deeper customization for faction-versus-faction loadouts; smarter AI for both the Cameraman and Skibidi Toilets sides; and a broader performance pass for frame pacing and load times. Treat the roadmap as the published intent for the Early Access window; final ordering and exact drop timing are not announced and are tracked on the Steam Community Hub for AppID 4315830.",
       },
       {
         id: "section-verify-release",
         type: "prose",
         heading: "Where to verify the live Skibidi Wars release date",
-        body: "The live Steam store page is the authoritative source for the Skibidi Wars release date. SteamDB AppID 4315830 carries a near-real-time mirror of the Steam store metadata, including the release date and any timing shift. The DaFuq!?Boom! developer profile on Steam confirms the same release window from the publisher side. The system requirements page pairs the launch-day status with the live Steam store spec list, and the price and editions page tracks the live Steam price and any edition tier that ships with the launch.",
+        body: "The live Steam store page is the authoritative source for the Skibidi Wars Early Access state and the full-release date once it is announced. SteamDB AppID 4315830 carries a near-real-time mirror of the Steam store metadata, including the Early Access flag and any timing shift. The Pakumi developer profile on Steam confirms the same release window from the publisher side. The system requirements page pairs the launch-day status with the live Steam store spec list, and the price and editions page tracks the live Steam price and the launch-window price-stability promise.",
       },
     ],
     faqIds: [
@@ -181,25 +196,26 @@ export const releasePages: PageContent[] = [
     url: "/price",
     pageType: "release",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: "Skibidi Wars Price: How Much It Costs on Steam",
-    seoTitle: "Skibidi Wars Price — Steam Cost, Editions & Discounts (2026)",
+    h1: "Skibidi Wars Price: Steam Cost and Early Access Price Promise",
+    seoTitle: "Skibidi Wars Price — Steam Cost, Price Stability & Editions (2026)",
     metaDescription:
-      "Skibidi Wars price is on the live Steam store page for AppID 4315830. No editions or launch-day discounts are announced as of September 17, 2026.",
+      "Skibidi Wars price lives on the Steam store page for AppID 4315830. Pakumi has promised the Early Access launch price will hold through the full release window.",
     summary:
-      "Find where the Skibidi Wars Steam price and edition tier live, why the wiki defers to the live store, and how the launch-day price pairs with system requirements and release status.",
+      "Find where the Skibidi Wars Steam price lives, why the wiki defers to the live store, and how the Early Access price-stability promise pairs with system requirements and release status.",
     hero: {
       eyebrow: "Price & Editions",
       subtitle:
-        "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. No editions or launch-day discounts are publicly announced.",
+        "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. Pakumi has promised the Early Access launch price will not change during the Early Access window.",
       ctas: [
         { label: "Release date", href: "/release-date/" },
         { label: "System requirements", href: "/system-requirements/" },
       ],
     },
     quickAnswer:
-      "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. There are no publicly announced Skibidi Wars edition tiers or launch-day discounts as of the September 17, 2026 research date. The Steam store sidebar for AppID 4315830 is the authoritative source for the current Skibidi Wars price.",
+      "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. Pakumi has publicly promised that the Early Access launch price will hold steady through the full release window — no surprise price hike while the game is in Early Access. There are no publicly announced edition tiers or launch-day discounts as of the September 17, 2026 research date.",
     keyFacts: [
       { label: "Price source", value: "Steam store sidebar (AppID 4315830)" },
+      { label: "Price stability", value: "Held through Early Access window" },
       { label: "Editions", value: "None announced" },
       { label: "Launch discount", value: "None announced" },
       { label: "Founders pack", value: "None announced" },
@@ -212,6 +228,13 @@ export const releasePages: PageContent[] = [
         tone: "confirmed",
         title: "How much does Skibidi Wars cost on Steam?",
         body: "The Skibidi Wars price is whatever the live Steam store page shows for AppID 4315830 right now. Open the Steam store sidebar or the SteamDB mirror for the current price tag.",
+      },
+      {
+        id: "callout-faq-price-stability",
+        type: "callout",
+        tone: "confirmed",
+        title: "Will the price change during Early Access?",
+        body: "No. Pakumi has publicly promised that the Skibidi Wars Early Access launch price will hold through the Early Access window. The Steam store sidebar for AppID 4315830 is the live source to confirm the current price is unchanged.",
       },
       {
         id: "callout-faq-price-editions",
@@ -231,14 +254,20 @@ export const releasePages: PageContent[] = [
         id: "callout-faq-price-after-launch",
         type: "callout",
         tone: "caution",
-        title: "Will the Skibidi Wars price change after launch?",
-        body: "Skibidi Wars price changes after launch are not announced as of the September 17, 2026 research date. The Steam store page is the authoritative source for any post-launch price shift, regional price change, or Steam Sale event.",
+        title: "Will the Skibidi Wars price change after the full release?",
+        body: "Pakumi has promised the Early Access launch price will hold through the Early Access window. Any price change after the full 1.0 release is not announced as of the September 17, 2026 research date; the Steam store page is the authoritative source for any post-EA price shift or Steam Sale event.",
       },
       {
         id: "section-cost",
         type: "prose",
         heading: "How much does Skibidi Wars cost on Steam?",
-        body: "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. Skibidi Wars is a launch-day Steam title on September 17, 2026, so the live store sidebar reflects the current price point as posted by DaFuq!?Boom!. SteamDB mirrors the same price tag in near real time, and any launch-day discount, regional price change, or price drop shows up on both surfaces together.",
+        body: "The Skibidi Wars price is whatever the live Steam store page shows right now for AppID 4315830. Skibidi Wars entered Steam Early Access on September 17, 2026, so the live store sidebar reflects the current Early Access price as posted by Pakumi. SteamDB mirrors the same price tag in near real time, and any launch-day discount, regional price change, or post-EA price drop shows up on both surfaces together.",
+      },
+      {
+        id: "section-price-stability",
+        type: "prose",
+        heading: "Early Access price-stability promise",
+        body: "Pakumi has publicly promised that the Skibidi Wars Early Access launch price will not change during the Early Access window. That means buyers who pick up the game at launch pay the same price at any point before the full 1.0 release, with no surprise Early Access price hike along the way. The Steam store sidebar for AppID 4315830 is the live source to confirm the price is unchanged; any deviation between the live store and the promise should be reported on the Steam Community Hub for AppID 4315830.",
       },
       {
         id: "section-editions",
@@ -250,11 +279,12 @@ export const releasePages: PageContent[] = [
         id: "section-verify-price",
         type: "prose",
         heading: "Where to confirm the live Skibidi Wars price",
-        body: "The live Steam store page for AppID 4315830 is the authoritative source for the Skibidi Wars price. SteamDB AppID 4315830 mirrors the price and any timing shift in near real time, and the DaFuq!?Boom! developer profile on Steam is the publisher-side source for any post-launch price change or new edition tier. Pair the Skibidi Wars price with the release date page and the system requirements page so the cost lands alongside the launch window and the spec list.",
+        body: "The live Steam store page for AppID 4315830 is the authoritative source for the Skibidi Wars price. SteamDB AppID 4315830 mirrors the price and any timing shift in near real time, and the Pakumi developer profile on Steam is the publisher-side source for any post-EA price change or new edition tier. Pair the Skibidi Wars price with the release date page and the system requirements page so the cost lands alongside the Early Access window and the spec list.",
       },
     ],
     faqIds: [
       "faq-price-how-much",
+      "faq-price-stability",
       "faq-price-editions",
       "faq-price-launch-discount",
       "faq-price-after-launch",

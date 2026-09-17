@@ -13,25 +13,25 @@ export const guidePages: PageContent[] = [
     h1: "Skibidi Wars Beginners Guide: Launch Day Starter Path",
     seoTitle: "Skibidi Wars Beginners Guide: Launch Day, Factions, Units",
     metaDescription:
-      "A launch-day Skibidi Wars beginners guide covering how to install on Steam, pick a faction, choose a starter unit, and progress through the first missions.",
+      "A launch-day Skibidi Wars beginners guide covering how to install on Steam, pick a side (Cameraman vs Skibidi Toilets), choose a starter unit, and progress through the first missions.",
     summary:
-      "Launch-day Skibidi Wars beginners guide: install via Steam AppID 4315830, pick a faction, choose a starter unit, and progress through the store-described combat loop.",
+      "Launch-day Skibidi Wars beginners guide: install via Steam AppID 4315830, pick a side, choose a starter unit, and progress through the store-described two-faction combat loop.",
     hero: {
       eyebrow: "Beginners Guide",
       subtitle:
-        "On launch day 2026-09-17, this Skibidi Wars beginners guide walks new players through installing the game via Steam (AppID 4315830) and starting the faction-versus-faction combat loop.",
+        "On launch day 2026-09-17, this Skibidi Wars beginners guide walks new players through installing the game via Steam (AppID 4315830) and starting the two-faction combat loop between Cameraman and Skibidi Toilets.",
       ctas: [
         { label: "Controls", href: "/controls/" },
         { label: "Characters", href: "/characters/" },
       ],
     },
     quickAnswer:
-      "On launch day 2026-09-17, this Skibidi Wars beginners guide walks new players through installing the game via Steam (AppID 4315830) and starting the store-described faction-versus-faction combat loop: pick a faction (Allies versus Toilets), pick a starter unit (Camera, TV, Speaker, or Toilet), and play through the episode-driven mission flow. Because the game launched today, there is no third-party walkthrough yet.",
+      "On launch day 2026-09-17, this Skibidi Wars beginners guide walks new players through installing the game via Steam (AppID 4315830) and starting the store-described two-faction combat loop: pick a side (Cameraman or Skibidi Toilets), pick a starter unit, and play through the episode-driven mission flow. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are treated as legacy terminology. Because the game launched today, there is no third-party walkthrough yet.",
     keyFacts: [
       { label: "Install", value: "Steam AppID 4315830" },
-      { label: "Launch date", value: "September 17, 2026" },
-      { label: "Faction choice", value: "Allies vs Toilets" },
-      { label: "Starter units", value: "Camera, TV, Speaker, Toilet" },
+      { label: "Launch date", value: "September 17, 2026 (Early Access)" },
+      { label: "Faction choice", value: "Cameraman vs Skibidi Toilets" },
+      { label: "Starter units", value: "Cameraman-side or Skibidi Toilets-side units" },
       { label: "Last verified", value: "2026-09-17" },
     ],
     modules: [
@@ -40,14 +40,14 @@ export const guidePages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "Is Skibidi Wars out on launch day?",
-        body: "Yes. Skibidi Wars launches on Steam on 2026-09-17. Confirm the live store listing before purchasing in case the launch slot updates after the research date.",
+        body: "Yes. Skibidi Wars entered Steam Early Access on 2026-09-17 with a planned roughly six-month window before full release. Confirm the live store listing before purchasing in case the launch slot updates after the research date.",
       },
       {
         id: "callout-faq-beginners-best-starter",
         type: "callout",
         tone: "caution",
-        title: "What is the best starter faction in Skibidi Wars?",
-        body: "The Steam store copy does not rank factions. Pick Allies if you want to play the Cameras, TVs, Speakers, and Titans roster, or pick Toilets if you want to play the primary antagonist faction.",
+        title: "What is the best starter side in Skibidi Wars?",
+        body: "The Steam store copy does not rank factions. Pick Cameraman if you want the IP-legacy Camera, TV, Speaker, and Titan sub-labels, or pick Skibidi Toilets if you want to play the primary antagonist side with Toilet Emperor.",
       },
       {
         id: "callout-faq-beginners-tutorial",
@@ -61,31 +61,31 @@ export const guidePages: PageContent[] = [
         type: "callout",
         tone: "confirmed",
         title: "Where can I find launch-day updates?",
-        body: "The Steam store page and Steam Community Hub for AppID 4315830 are the only first-party surfaces for Skibidi Wars launch content. The Community Hub is the live surface for developer announcements and bug reports.",
+        body: "The Steam store page and Steam Community Hub for AppID 4315830 are the only first-party surfaces for Skibidi Wars launch content. The Community Hub is the live surface for developer announcements from Pakumi and bug reports.",
       },
       {
         id: "section-install",
         type: "prose",
         heading: "Step 1: Install Skibidi Wars on Steam",
-        body: "Skibidi Wars launches on Steam under AppID 4315830. To start playing: open the Steam client and search for Skibidi Wars or open the store page directly via the AppID 4315830 URL; confirm the launch date is 2026-09-17 before purchasing, and check the supported languages banner against your locale; install the game through the Steam library, then launch it from the library once the install finishes.",
+        body: "Skibidi Wars launches on Steam under AppID 4315830. To start playing: open the Steam client and search for Skibidi Wars or open the store page directly via the AppID 4315830 URL; confirm the Early Access launch date is 2026-09-17 before purchasing, and check the supported languages banner against your locale; install the game through the Steam library, then launch it from the library once the install finishes.",
       },
       {
         id: "section-pick-faction",
         type: "prose",
-        heading: "Step 2: Pick your faction",
-        body: "The Steam store copy places faction choice at the start of every Skibidi Wars mission. The six faction labels are Allies (umbrella faction fielding Cameras, TVs, Speakers, and Titans), Toilets (primary antagonist faction fielding the Toilet Emperor and its subordinates), Cameras, TVs, Speakers, and Titans. New players who want a guided path should start on the Allies side, since the Allies-side factions are the broader force the store copy describes.",
+        heading: "Step 2: Pick your side",
+        body: "The Steam store copy places side choice at the start of every Skibidi Wars mission. The two Steam-confirmed sides are Cameraman and Skibidi Toilets. The Cameraman side draws on characters inherited from the Skibidi Toilet YouTube IP, including standard Cameramen plus IP-legacy Camera, TV, Speaker, and Titan sub-labels. The Skibidi Toilets side is the opposing force with Toilet Emperor as the headline antagonist. Camera, TV, Speaker, and Titan labels are recorded here as IP-legacy terminology rather than current-game faction names. New players who want a guided path should start on the Cameraman side, since that is the broader force the store copy describes.",
       },
       {
         id: "section-pick-starter",
         type: "prose",
         heading: "Step 3: Pick your starter unit",
-        body: "Within your chosen faction, the Steam store copy tells you to pick a character or unit. The store copy frames the Allies-side starter units as the Camera, TV, and Speaker tiers, with the Toilet tribe acting as the opposing starter roster. For first-time players, the simplest starter path is to pick one of the three standard Allies-side units and learn the combat loop with that unit before exploring battle armor variants.",
+        body: "Within your chosen side, the Steam store copy tells you to pick a character or unit. The store copy frames the Cameraman-side starter roster as standard Cameramen plus the IP-legacy Camera, TV, and Speaker units, with the Skibidi Toilets acting as the opposing starter roster. For first-time players, the simplest starter path is to pick one of the standard Cameraman-side units and learn the combat loop with that unit before exploring battle armor variants.",
       },
       {
         id: "section-mission-loop",
         type: "prose",
         heading: "Mission progression framework",
-        body: "The Steam store copy frames Skibidi Wars progression around: mission start (pick your faction and unit), combat phase (fight through opposing faction units), named-boss encounter (face a named boss such as Toilet Emperor at the end of the mission), and episode gate (beat the boss to unlock the next episode). This loop is the only progression structure the Steam copy confirms.",
+        body: "The Steam store copy frames Skibidi Wars progression around: mission start (pick your side and unit), combat phase (fight through opposing side units), named-boss encounter (face a named boss such as Toilet Emperor at the end of the mission), and episode gate (beat the boss to unlock the next episode). This loop is the only progression structure the Steam copy confirms.",
       },
     ],
     faqIds: [
@@ -170,20 +170,20 @@ export const guidePages: PageContent[] = [
       {
         id: "section-faction-select",
         type: "prose",
-        heading: "Faction select",
-        body: "Each Skibidi Wars mission opens with a faction-versus-faction choice. The store copy tells you to expect Allies versus Toilets as the headline faction pairing, Cameras/TVs/Speakers/Titans as the Allies-side sub-factions, and the Toilet faction as the opposing faction.",
+        heading: "Side select",
+        body: "Each Skibidi Wars mission opens with a two-faction choice. The Steam store description tells you to expect Cameraman versus Skibidi Toilets as the headline pairing. Camera, TV, Speaker, and Titan labels come from the YouTube Skibidi Toilet IP and are recorded here as legacy terminology rather than current-game faction names.",
       },
       {
         id: "section-unit-select",
         type: "prose",
         heading: "Unit select",
-        body: "Within the chosen faction, you pick a character or unit. The store copy tells you to expect named units within each sub-faction (Camera, TV, Speaker, Titan), battle armor variants that emerge as the player advances, and named-boss encounters for the opposing faction.",
+        body: "Within the chosen side, you pick a character or unit. The store copy tells you to expect named units within the Cameraman-side roster (including IP-legacy Camera, TV, Speaker, and Titan references), battle armor variants that emerge as the player advances, and named-boss encounters for the Skibidi Toilets side.",
       },
       {
         id: "section-boss",
         type: "prose",
         heading: "Boss encounter",
-        body: "Each mission ends with a named-boss encounter that gates progression to the next episode. The store copy names Toilet Emperor as the primary antagonist and lists the Titan faction as one of the Allies-side sub-factions. Specific boss HP, ability damage numbers, and counter-tactic charts are not announced as of the research date.",
+        body: "Each mission ends with a named-boss encounter that gates progression to the next episode. The Steam store description names Toilet Emperor as the primary antagonist on the Skibidi Toilets side. The Titan sub-label appears in autocomplete and in the YouTube Skibidi Toilet IP for large named units, but the Steam store does not list it as a separate current-game faction. Specific boss HP, ability damage numbers, and counter-tactic charts are not announced as of the research date.",
       },
     ],
     faqIds: [

@@ -6,6 +6,16 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-18 - Pakumi attribution, Early Access roadmap, and two-faction roster batch
+
+- Task: Apply content-updater-20260917T174509Z-40667 batch (developer-publisher-identity, early-access-status-and-roadmap, faction-roster) for the Skibidi Wars launch hub.
+- Files changed: `src/data/pages/home.ts`, `src/data/pages/release-pages.ts` (release-date and price pages), `src/data/pages/site-pages.ts` (about, contact, privacy, terms), `src/data/pages/wiki-pages.ts` (characters, wiki hub, episodes, bosses, enemies, three Titan pages, Toilet Emperor), `src/data/pages/guide-pages.ts` (beginners guide, controls), `src/data/faq.ts`, `CONTENT_INDEX.md`.
+- URLs affected: `/`, `/release-date/`, `/price/`, `/about/`, `/contact/`, `/privacy-policy/`, `/terms/`, `/wiki/`, `/characters/`, `/episodes/`, `/bosses/`, `/enemies/`, `/titan-speakerman/`, `/titan-tv-man/`, `/titan-cameraman/`, `/toilet-emperor/`, `/beginners-guide/`, `/controls/`.
+- Attribution changed: Skibidi Wars developer and publisher corrected to Pakumi across home, release-date, about, characters, wiki hub, terms, and Toilet Emperor pages. DaFuq!?Boom! is now recorded as the Skibidi Toilet YouTube IP creator, not the game studio.
+- Status changed: Steam Early Access state surfaced on home, release-date, wiki hub, and beginners guide, replacing the prior "no Early Access" claim. Added the Early Access roadmap section listing planned full-release additions (new maps, more characters, upgraded matchmaking, deeper customization, smarter AI, performance) and surfaced the Early Access price-stability promise on the price page.
+- Faction framing changed: replaced the six-faction framing (Allies, Toilets, Cameras, TVs, Speakers, Titans) with the Steam store's two-faction framing (Cameraman vs Skibidi Toilets) on home, characters, enemies, bosses, and beginners guide pages. Camera/TV/Speaker/Titan sub-faction labels are now recorded as IP-legacy terminology rather than current-game factions.
+- Verification: Typecheck, lint, template/content/SEO validation, IndexNow test, and full verify required before commit.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.

@@ -12,15 +12,16 @@ hreflang, sitemap, and route-manifest validation.
 
 | URL | File/Route | Type | Primary Keyword | Search Intent | Primary CTA | Internal-Link Role | Notes |
 |---|---|---|---|---|---|---|---|
-| `/` | `src/data/pages/home.ts` | Landing | Template Game guide | Find the best entry point | Open Wiki / Browse Guides | Hub | Replace with the configured game's main hub intent. |
-| `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Template Game wiki | Understand confirmed facts | Guides / FAQ | Hub | Keep official fact base and source context here. |
-| `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
-| `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
-| `/faq` | `src/data/pages/site-pages.ts` | Guide | Template Game FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
-| `/about` | `src/data/pages/site-pages.ts` | Utility | about Template Game Guide | Trust and editorial policy | Contact | Trust | Explain unofficial status and sourcing rules. |
-| `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
+| `/` | `src/data/pages/home.ts` | Landing | Skibidi Wars launch hub | Find Pakumi launch status, two-faction roster, Early Access roadmap | Release Date / Characters | Hub | Names Pakumi as developer and publisher; clarifies DaFuq!?Boom! as IP creator. |
+| `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Skibidi Wars wiki | Understand confirmed Steam facts | Characters / Episodes | Hub | Names Pakumi and the two-faction Steam-confirmed roster. |
+| `/guides` | `src/data/pages/guide-pages.ts` | Guide | Skibidi Wars guides | Find launch-day starter path | Controls / Characters | Hub | Beginners guide and controls use the two-faction framing. |
+| `/release-date` | `src/data/pages/release-pages.ts` | Guide | Skibidi Wars release date | Confirm Early Access launch window and roadmap | System Requirements / Price | Supporting hub | Steam-confirmed Early Access state with ~6 month window. |
+| `/faq` | `src/data/pages/site-pages.ts` | Guide | Skibidi Wars FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
+| `/about` | `src/data/pages/site-pages.ts` | Utility | About Skibidi Wars Wiki | Trust and editorial policy | Contact | Trust | Explains unofficial status, Pakumi attribution, IP-legacy sub-faction terminology. |
+| `/contact` | `src/data/pages/site-pages.ts` | Utility | Contact Skibidi Wars Wiki | Corrections and source updates | About | Trust | Contact channel pending; bug reports routed to Pakumi. |
 | `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |
-| `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
+| `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Pakumi attribution; clarifies DaFuq!?Boom! as IP creator. |
+| `/price` | `src/data/pages/release-pages.ts` | Guide | Skibidi Wars price | Confirm Early Access price and price-stability promise | Release Date / System Requirements | Supporting hub | Surfaces Early Access price-stability promise from Pakumi. |
 
 ## Generated Route Families
 
