@@ -25,7 +25,6 @@ export const footerNavigation: LocalizedNavigationItem[] = [
   { href: "/contact", labels: { "en-US": "Contact" } },
   { href: "/privacy-policy", labels: { "en-US": "Privacy Policy" } },
   { href: "/terms", labels: { "en-US": "Terms of Use" } },
-  { href: "/non-official-disclaimer", labels: { "en-US": "Unofficial Disclaimer" } },
 ];
 
 export function navigationLabel(item: LocalizedNavigationItem, locale: string): string {

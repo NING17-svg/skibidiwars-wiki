@@ -1,0 +1,202 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-beginners-guide-en-US",
+    "translationKey": "beginners-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/beginners-guide",
+    "alternates": {
+      "en-US": "/beginners-guide"
+    }
+  },
+  {
+    "id": "fixed-bosses-list-en-US",
+    "translationKey": "bosses-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/bosses",
+    "alternates": {
+      "en-US": "/bosses"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "characters-units",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/characters",
+    "alternates": {
+      "en-US": "/characters"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-controls-mechanics-en-US",
+    "translationKey": "controls-mechanics",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/controls",
+    "alternates": {
+      "en-US": "/controls"
+    }
+  },
+  {
+    "id": "fixed-enemies-list-en-US",
+    "translationKey": "enemies-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/enemies",
+    "alternates": {
+      "en-US": "/enemies"
+    }
+  },
+  {
+    "id": "fixed-episode-list-en-US",
+    "translationKey": "episode-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/episodes",
+    "alternates": {
+      "en-US": "/episodes"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "fixed-price-editions-en-US",
+    "translationKey": "price-editions",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/price",
+    "alternates": {
+      "en-US": "/price"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-date-status-en-US",
+    "translationKey": "release-date-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release-date",
+    "alternates": {
+      "en-US": "/release-date"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-US",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-titan-cameraman-en-US",
+    "translationKey": "titan-cameraman",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/titan-cameraman",
+    "alternates": {
+      "en-US": "/titan-cameraman"
+    }
+  },
+  {
+    "id": "fixed-titan-speakerman-en-US",
+    "translationKey": "titan-speakerman",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/titan-speakerman",
+    "alternates": {
+      "en-US": "/titan-speakerman"
+    }
+  },
+  {
+    "id": "fixed-titan-tv-man-en-US",
+    "translationKey": "titan-tv-man",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/titan-tv-man",
+    "alternates": {
+      "en-US": "/titan-tv-man"
+    }
+  },
+  {
+    "id": "fixed-toilet-emperor-en-US",
+    "translationKey": "toilet-emperor",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/toilet-emperor",
+    "alternates": {
+      "en-US": "/toilet-emperor"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "wiki-faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  }
+]
