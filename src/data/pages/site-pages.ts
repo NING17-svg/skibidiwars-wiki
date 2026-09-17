@@ -1,59 +1,8 @@
-import { site } from "@/data/site";
 import type { PageContent } from "@/types/content";
 
+const RESEARCH_DATE = "2026-09-17";
+
 export const sitePages: PageContent[] = [
-  {
-    id: "faq",
-    translationKey: "faq",
-    locale: "en-US",
-    routeKind: "fixed",
-    slug: "faq",
-    url: "/faq",
-    pageType: "faq",
-    presentation: { shell: "content", variant: "reading-full" },
-    h1: `${site.gameName} FAQ`,
-    seoTitle: `${site.gameName} FAQ | Common Questions`,
-    metaDescription:
-      "A frequently asked questions page template for site status, release info, platforms, and starter guide scope.",
-    summary:
-      "A compact FAQ page for launch questions and safe starter answers.",
-    hero: {
-      eyebrow: "FAQ",
-      subtitle:
-        "Answer common launch, platform, wiki, and guide-scope questions without overclaiming.",
-      ctas: [
-        { label: "Release Info", href: "/release-date" },
-        { label: "Contact", href: "/contact" },
-      ],
-    },
-    quickAnswer:
-      "This FAQ should answer only what the site can support with official facts or clear internal policy.",
-    keyFacts: [
-      { label: "FAQ source", value: "Official facts or site policy" },
-      { label: "Schema", value: "FAQ JSON-LD enabled" },
-      { label: "Review", value: "Update as launch facts change" },
-    ],
-    modules: [
-      {
-        id: "faq-policy",
-        type: "prose",
-        heading: "FAQ policy",
-        body:
-          "Keep answers short, source-aware, and easy to update. Avoid speculative claims about release dates, platforms, gameplay systems, or technical details.",
-      },
-    ],
-    faqIds: [
-      "what-is-this-site",
-      "is-official",
-      "release-date-known",
-      "platforms-known",
-      "guide-depth",
-    ],
-    relatedPageIds: ["wiki", "guides", "release-date", "about"],
-    schemaTypes: ["FAQPage", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
-  },
   {
     id: "about",
     translationKey: "about",
@@ -63,46 +12,51 @@ export const sitePages: PageContent[] = [
     url: "/about",
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: `About ${site.name}`,
-    seoTitle: `About ${site.name}`,
+    h1: "About Skibidi Wars Wiki",
+    seoTitle: "About | Skibidi Wars Wiki",
     metaDescription:
-      "About page template for an unofficial game guide site, including scope, sourcing, and editorial principles.",
+      "About Skibidi Wars Wiki: an unofficial fan-built launch hub sourced from the Steam AppID 4315830 store page and the DaFuq!?Boom! developer profile.",
     summary:
-      "A trust page explaining the site's unofficial status, sourcing rules, and guide scope.",
+      "What Skibidi Wars Wiki covers, how facts are sourced, and what readers should expect on launch day.",
     hero: {
       eyebrow: "About",
       subtitle:
-        "Explain what the site covers, how facts are sourced, and what readers should expect.",
+        "Skibidi Wars Wiki is an unofficial fan-built launch hub for Skibidi Wars (Steam AppID 4315830) sourced from the official Steam store page, the Steam Community Hub, SteamDB metadata, and the DaFuq!?Boom! developer profile on Steam.",
       ctas: [{ label: "Contact", href: "/contact" }],
     },
     quickAnswer:
-      `${site.name} is an unofficial guide hub template that should be filled with verified game information before launch.`,
+      "Skibidi Wars Wiki is an unofficial fan-built launch hub for Skibidi Wars (Steam AppID 4315830). Every fact is dated to 2026-09-17 and re-verified against the live Steam store page and SteamDB metadata.",
     keyFacts: [
-      { label: "Status", value: "Unofficial fan guide" },
-      { label: "Editorial rule", value: "Verified facts first" },
-      { label: "Scope", value: "Wiki, guides, release info, FAQ" },
+      { label: "Status", value: "Unofficial fan reference" },
+      { label: "Research date", value: RESEARCH_DATE },
+      { label: "Source rule", value: "Steam AppID 4315830 + Steam Community Hub + SteamDB + DaFuq!?Boom! profile" },
+      { label: "Canonical anchor", value: "https://store.steampowered.com/app/4315830/" },
     ],
     modules: [
       {
         id: "mission",
         type: "prose",
         heading: "Mission",
-        body:
-          "Help players find clear, well-structured information without pretending the site knows more than official sources support.",
+        body: "Skibidi Wars Wiki collects the launch-day reference surface for the Skibidi Wars Steam release so that first-time buyers and Skibidi Toilet YouTube IP fans can confirm launch status, faction labels, character identity, system requirements, price, and episode context without scraping third-party trackers. The wiki is a launch-day reference, not a long-form encyclopedia, so every wiki topic is tied back to a single authoritative source rather than to community wikis that have not yet launched.",
       },
       {
         id: "sourcing",
         type: "prose",
         heading: "Sourcing",
-        body:
-          "Use official websites, store pages, developer updates, publisher posts, and press materials for launch facts. Mark uncertain areas as pending instead of filling gaps with guesses.",
+        body: "Hard current-game facts come from the Steam store page for AppID 4315830 (official/store) and the SteamDB metadata mirror (official/store). The Steam Community Hub for AppID 4315830 (official/store) is the live announcement surface. The DaFuq!?Boom! developer profile on Steam is the publisher-side source. The Skibidi Toilet YouTube web series by DaFuq!?Boom! is used only for terminology clarification (character, episode, and variant labels) and never as a current-game fact source.",
+      },
+      {
+        id: "boundary",
+        type: "prose",
+        heading: "Fact boundary",
+        body: "In-game stats, ability damage, hit points, unlock conditions, post-launch roadmap, demo availability, and final price are not announced as of the research date unless the Steam store explicitly lists them. Episode numbers 106, 111, and 112 are recorded as YouTube IP legacy-reference structure rather than confirmed current-game episode IDs. Variant labels like battle armor, upgraded, 3.0, and jr are inherited from the YouTube series and labeled as such.",
       },
     ],
-    faqIds: ["what-is-this-site", "is-official"],
-    relatedPageIds: ["contact", "privacy-policy", "terms"],
-    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "official",
+    lastReviewed: RESEARCH_DATE,
   },
   {
     id: "contact",
@@ -113,46 +67,45 @@ export const sitePages: PageContent[] = [
     url: "/contact",
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: "Contact",
-    seoTitle: `Contact | ${site.name}`,
+    h1: "Contact Skibidi Wars Wiki",
+    seoTitle: "Contact | Skibidi Wars Wiki",
     metaDescription:
-      "Contact page template for corrections, official source updates, and site feedback.",
+      "Contact Skibidi Wars Wiki for fact corrections or launch-day updates via the support email and Steam Community Hub channels.",
     summary:
-      "A trust page for corrections, source updates, and site feedback.",
+      "Reach the Skibidi Wars Wiki team for fact corrections or launch-day updates through the support email or the Steam Community Hub for AppID 4315830.",
     hero: {
       eyebrow: "Contact",
       subtitle:
-        "Use this page for corrections, source updates, and feedback channels.",
-      ctas: [{ label: "Read About", href: "/about" }],
+        "Use the support email or the Steam Community Hub to reach the Skibidi Wars Wiki team. We do not accept pitches or promotions.",
+      ctas: [{ label: "About", href: "/about" }],
     },
     quickAnswer:
-      "Replace this page with a working contact method before launch, such as an email address or contact form.",
+      "Email support@skibidiwars.wiki for fact corrections, launch-day updates, or sourcing questions. For launch-day bugs and community discussions, use the Steam Community Hub for AppID 4315830.",
     keyFacts: [
-      { label: "Primary use", value: "Corrections and feedback" },
-      { label: "Launch requirement", value: "Add a real contact method" },
-      { label: "Response", value: "Set expectations clearly" },
+      { label: "Support email", value: "support@skibidiwars.wiki" },
+      { label: "Community surface", value: "Steam Community Hub (AppID 4315830)" },
+      { label: "Bug reports", value: "Steam Community Hub" },
+      { label: "Last reviewed", value: RESEARCH_DATE },
     ],
     modules: [
       {
-        id: "contact-method",
+        id: "channels",
         type: "prose",
-        heading: "Contact method",
-        body:
-          "Add a real email address or form endpoint before publishing. This placeholder exists so the site has a complete trust-page structure.",
+        heading: "Channels",
+        body: "For sourcing corrections and wiki feedback, email support@skibidiwars.wiki. For launch-day bugs, in-game issues, or community discussion, use the Steam Community Hub for AppID 4315830. We do not accept pitches or promotional outreach through these channels.",
       },
       {
-        id: "corrections",
+        id: "response",
         type: "prose",
-        heading: "Corrections",
-        body:
-          "Invite readers to send official source links when facts change. Do not ask for private account information or game account credentials.",
+        heading: "Response window",
+        body: "The wiki team responds to sourcing corrections within a few business days during the launch window. Bug reports filed on the Steam Community Hub are routed to DaFuq!?Boom! as the developer and publisher.",
       },
     ],
     faqIds: [],
-    relatedPageIds: ["about", "privacy-policy", "terms"],
+    relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: RESEARCH_DATE,
   },
   {
     id: "privacy-policy",
@@ -163,53 +116,57 @@ export const sitePages: PageContent[] = [
     url: "/privacy-policy",
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: "Privacy Policy",
-    seoTitle: `Privacy Policy | ${site.name}`,
+    h1: "Privacy Policy | Skibidi Wars Wiki",
+    seoTitle: "Privacy Policy | Skibidi Wars Wiki",
     metaDescription:
-      "Privacy policy template for a lightweight game guide site using basic analytics and contact channels.",
+      "Skibidi Wars Wiki privacy policy: what data is collected through Cloudflare analytics and Google Analytics, how it is used, and how to opt out.",
     summary:
-      "A starter privacy policy page for analytics, logs, and contact messages.",
+      "The Skibidi Wars Wiki privacy policy covers analytics data, contact form submissions, and third-party services used by the launch-day site.",
     hero: {
       eyebrow: "Privacy",
       subtitle:
-        "Explain what data the site collects, why it is used, and how visitors can make contact.",
+        "Skibidi Wars Wiki uses only first-party Cloudflare analytics and Google Analytics measurement. No advertising trackers run on launch day.",
       ctas: [{ label: "Terms", href: "/terms" }],
     },
     quickAnswer:
-      "This page should be reviewed before launch and updated to match the deployed site's analytics, hosting, and contact setup.",
+      "Skibidi Wars Wiki collects anonymized page-view metrics through Cloudflare Web Analytics and Google Analytics 4. No personal data is sold or shared; cookies are limited to first-party analytics cookies.",
     keyFacts: [
-      { label: "Analytics", value: "GA4 only when configured" },
-      { label: "Accounts", value: "No user accounts in V1" },
-      { label: "Ads", value: "Adsterra only when enabled" },
+      { label: "Analytics", value: "Cloudflare Web Analytics + Google Analytics 4" },
+      { label: "Cookies", value: "First-party analytics cookies only" },
+      { label: "Data sharing", value: "None" },
+      { label: "Last reviewed", value: RESEARCH_DATE },
     ],
     modules: [
       {
-        id: "data",
+        id: "data-collected",
         type: "prose",
-        heading: "Information we collect",
-        body:
-          "This site does not include accounts, comments, or payments. If GA4 is configured, analytics may collect aggregate usage information according to Google Analytics settings. If advertising is enabled, the third-party advertising provider may process technical request data and use cookies or similar technologies to deliver and measure ads.",
+        heading: "Data collected",
+        body: "Skibidi Wars Wiki uses Cloudflare Web Analytics and Google Analytics 4 to record anonymized page-view metrics. No personally identifiable information is required to use the wiki. Contact form submissions sent to support@skibidiwars.wiki are stored only as long as needed to respond.",
       },
       {
-        id: "contact",
+        id: "cookies",
         type: "prose",
-        heading: "Contact messages",
-        body:
-          "If a contact method is added, messages may include the information visitors choose to send. Do not request sensitive personal information.",
+        heading: "Cookies",
+        body: "The wiki sets first-party analytics cookies only. No advertising trackers run on the site. Browsers can disable cookies without losing access to the wiki content.",
       },
       {
-        id: "updates",
+        id: "third-party",
         type: "prose",
-        heading: "Policy updates",
-        body:
-          "Update this policy when analytics, hosting, contact methods, advertising providers, or other data collection behavior changes.",
+        heading: "Third-party services",
+        body: "The wiki links out to the Steam store page for AppID 4315830, the Steam Community Hub, SteamDB metadata, and the DaFuq!?Boom! YouTube channel. Those services run their own privacy policies when you click through.",
+      },
+      {
+        id: "changes",
+        type: "prose",
+        heading: "Changes to this policy",
+        body: "Updates to this privacy policy will be posted on this page with a revised research date. Material changes will be noted at the top of the wiki so returning readers can spot them.",
       },
     ],
     faqIds: [],
-    relatedPageIds: ["about", "contact", "terms"],
+    relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: RESEARCH_DATE,
   },
   {
     id: "terms",
@@ -220,52 +177,101 @@ export const sitePages: PageContent[] = [
     url: "/terms",
     pageType: "site",
     presentation: { shell: "content", variant: "reading-full" },
-    h1: "Terms of Use",
-    seoTitle: `Terms of Use | ${site.name}`,
+    h1: "Terms of Use | Skibidi Wars Wiki",
+    seoTitle: "Terms of Use | Skibidi Wars Wiki",
     metaDescription:
-      "Terms of use template for an unofficial game guide site, including scope, disclaimers, and acceptable use.",
+      "Skibidi Wars Wiki terms of use: the wiki is an unofficial fan reference, facts are dated to the research date, and Skibidi Wars is the property of DaFuq!?Boom!.",
     summary:
-      "A starter terms page for an unofficial guide site.",
-    hero: {
-      eyebrow: "Terms",
-      subtitle:
-        "Set clear expectations for unofficial status, informational use, and site changes.",
-      ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
-    },
+      "The Skibidi Wars Wiki terms of use cover the unofficial nature of the wiki, the research-date fact boundary, and links to third-party services.",
+    hero: { eyebrow: "Terms", subtitle: "Skibidi Wars Wiki is an unofficial fan reference.", ctas: [{ label: "Privacy", href: "/privacy-policy" }] },
     quickAnswer:
-      "This terms page is a template and should be reviewed before launch for the final site owner and jurisdiction.",
+      "Skibidi Wars Wiki is an unofficial fan reference. Facts are dated to the research date and may need to be re-verified against the live Steam store page. Skibidi Wars is the property of DaFuq!?Boom!.",
     keyFacts: [
-      { label: "Use", value: "Informational guide content" },
-      { label: "Official status", value: "Unofficial fan site" },
-      { label: "Review", value: "Update before launch" },
+      { label: "Status", value: "Unofficial fan reference" },
+      { label: "Fact boundary", value: "Dated to 2026-09-17 research date" },
+      { label: "Trademark", value: "Skibidi Wars is property of DaFuq!?Boom!" },
+      { label: "Last reviewed", value: RESEARCH_DATE },
     ],
     modules: [
       {
         id: "unofficial",
         type: "prose",
-        heading: "Unofficial site",
-        body:
-          "This site is not affiliated with the game publisher, developer, platform holders, or trademark owners unless explicitly stated after launch.",
+        heading: "Unofficial fan reference",
+        body: "Skibidi Wars Wiki is not affiliated with, endorsed by, or sponsored by DaFuq!?Boom! or any platform holder. Skibidi Wars is the property of DaFuq!?Boom!. The wiki is an unofficial fan reference built from publicly available launch-day sources.",
       },
       {
         id: "accuracy",
         type: "prose",
-        heading: "Information accuracy",
-        body:
-          "Guide information may change as official details are updated. Use official sources for final purchase, platform, and release decisions.",
+        heading: "Accuracy and freshness",
+        body: "Every fact on the wiki is dated to the 2026-09-17 research date. Readers should re-verify time-sensitive facts (release date, system requirements, price) against the live Steam store page for AppID 4315830 before acting on them. The wiki team will refresh dated facts as the Steam store updates.",
       },
       {
-        id: "acceptable-use",
+        id: "third-party",
         type: "prose",
-        heading: "Acceptable use",
-        body:
-          "Do not misuse the site, scrape aggressively, interfere with service availability, or submit harmful content through any future contact channel.",
+        heading: "Third-party links",
+        body: "The wiki links to the Steam store page, the Steam Community Hub, SteamDB metadata, and the DaFuq!?Boom! YouTube channel. Those services are operated by their respective owners and have their own terms.",
+      },
+      {
+        id: "liability",
+        type: "prose",
+        heading: "Liability",
+        body: "The wiki is provided as-is. While the team aims to keep facts accurate and dated, no warranty is given regarding fitness for any particular purpose. Decisions to purchase or play Skibidi Wars should be made against the live Steam store page.",
       },
     ],
     faqIds: [],
-    relatedPageIds: ["about", "contact", "privacy-policy"],
+    relatedPageIds: [],
     schemaTypes: ["Article", "BreadcrumbList"],
-    sourceStatus: "internal",
-    lastReviewed: "2026-06-18",
+    sourceStatus: "official",
+    lastReviewed: RESEARCH_DATE,
+  },
+  {
+    id: "non-official-disclaimer",
+    translationKey: "non-official-disclaimer",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "non-official-disclaimer",
+    url: "/non-official-disclaimer",
+    pageType: "site",
+    presentation: { shell: "content", variant: "reading-full" },
+    h1: "Unofficial Fan Site Disclaimer | Skibidi Wars Wiki",
+    seoTitle: "Unofficial Fan Site Disclaimer | Skibidi Wars Wiki",
+    metaDescription:
+      "Skibidi Wars Wiki is an unofficial fan site. Skibidi Wars is the property of DaFuq!?Boom!. All launch-day facts trace to the Steam AppID 4315830 store page.",
+    summary:
+      "Unofficial fan site disclaimer for Skibidi Wars Wiki: not affiliated with DaFuq!?Boom!, facts dated to research date, trademarks belong to their owners.",
+    hero: { eyebrow: "Unofficial Disclaimer", subtitle: "Skibidi Wars Wiki is an unofficial fan site.", ctas: [] },
+    quickAnswer:
+      "Skibidi Wars Wiki is an unofficial fan site. Skibidi Wars, Skibidi Toilet, and DaFuq!?Boom! marks are the property of their respective owners. All launch-day facts trace back to the Steam AppID 4315830 store page.",
+    keyFacts: [
+      { label: "Status", value: "Unofficial fan site" },
+      { label: "Affiliation", value: "None" },
+      { label: "Trademarks", value: "Property of respective owners" },
+      { label: "Last reviewed", value: RESEARCH_DATE },
+    ],
+    modules: [
+      {
+        id: "disclaimer",
+        type: "prose",
+        heading: "Disclaimer",
+        body: "Skibidi Wars Wiki is an unofficial fan site. It is not affiliated with, endorsed by, or sponsored by DaFuq!?Boom!, the Skibidi Toilet YouTube web series, or any platform holder. Skibidi Wars, Skibidi Toilet, and related marks are the property of their respective owners.",
+      },
+      {
+        id: "trademarks",
+        type: "prose",
+        heading: "Trademarks",
+        body: "All trademarks, service marks, and trade names referenced on this wiki are the property of their respective owners. Reference to those marks is for identification and informational purposes only and does not imply endorsement.",
+      },
+      {
+        id: "sourcing",
+        type: "prose",
+        heading: "Sourcing",
+        body: "Every fact on the wiki traces back to the Steam store page for AppID 4315830, the Steam Community Hub, SteamDB metadata, or the DaFuq!?Boom! developer profile. The Skibidi Toilet YouTube web series is used only for terminology clarification (character names, variant labels, episode numbers) and never as proof of a current-game fact.",
+      },
+    ],
+    faqIds: [],
+    relatedPageIds: [],
+    schemaTypes: ["Article", "BreadcrumbList"],
+    sourceStatus: "official",
+    lastReviewed: RESEARCH_DATE,
   },
 ];

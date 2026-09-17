@@ -1,6 +1,7 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
+import { fixturePages } from "@/data/pages/fixture-pages";
 import { guidePages } from "@/data/pages/guide-pages";
 import { homePage } from "@/data/pages/home";
 import { releasePages } from "@/data/pages/release-pages";
@@ -15,6 +16,7 @@ const fixedPages: PageContent[] = [
   ...guidePages,
   ...releasePages,
   ...sitePages,
+  ...fixturePages,
 ];
 
 const pages: PageContent[] = [
