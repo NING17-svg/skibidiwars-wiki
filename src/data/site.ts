@@ -30,8 +30,8 @@ export const site: SiteConfig = {
   domain: "skibidiwars.wiki",
   baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://skibidiwars.wiki").replace(/\/$/, ""),
   description:
-    "Baseline identity for the Skibidi Wars wiki (Steam AppID 4315830). Content, theme and route details are finalized by the one-click-builder Skill sequence.",
-  tagline: "Skibidi Wars wiki baseline — final content and theme follow.",
+    "Unofficial fan-built Skibidi Wars wiki hub for the September 17, 2026 Steam release of Skibidi Wars (AppID 4315830), sourced from the live Steam store page and SteamDB.",
+  tagline: "Skibidi Wars wiki — launch-day reference for release, system requirements, factions and characters.",
   primaryLocale: "en-US",
   locales: [
     {
