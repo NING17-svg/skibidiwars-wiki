@@ -34,6 +34,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Entity changed: Generic entity Hubs/details now render source links, relationships, and optional registered local images from one base fact package.
 - Verification: Typecheck, template validation, content validation, rendered SEO validation, route-manifest generation, and multilingual entity fixtures.
 
+### 2026-09-18 - Adsterra six-unit integration
+
+- Task: adsterra-integrator recovery for skibidiwars-wiki. Wrote the collected six fixed Adsterra unit codes into `src/data/ads.ts` (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) and prepared target commit.
+- Files changed: `src/data/ads.ts` (six unit values populated).
+- Ad baseline: Six fixed Adsterra units now active; placeholders replaced with real collected codes; no other ad components, layout, or page structure changed.
+- Verification: target site `npm run verify` required before commit.
+
 ### YYYY-MM-DD - Template baseline initialized
 
 - Task: Create the initial generated guide-site baseline.
